@@ -1,0 +1,242 @@
+[
+ {
+  "ref": "IIId.row1",
+  "claim": "cost-of-service row total",
+  "result": true,
+  "detail": "row 1 Claims triage agent: recomputed 555, published 555"
+ },
+ {
+  "ref": "IIId.row2",
+  "claim": "cost-of-service row total",
+  "result": true,
+  "detail": "row 2 Support resolution agent: recomputed 277, published 277"
+ },
+ {
+  "ref": "IIId.row3",
+  "claim": "cost-of-service row total",
+  "result": true,
+  "detail": "row 3 Engineering assistants: recomputed 440, published 440"
+ },
+ {
+  "ref": "IIId.row4",
+  "claim": "cost-of-service row total",
+  "result": true,
+  "detail": "row 4 Microsoft 365 Copilot: recomputed 984, published 984"
+ },
+ {
+  "ref": "IIId.row5",
+  "claim": "cost-of-service row total",
+  "result": true,
+  "detail": "row 5 Model gateway and routing: recomputed 470, published 470"
+ },
+ {
+  "ref": "IIId.row6",
+  "claim": "cost-of-service row total",
+  "result": true,
+  "detail": "row 6 Enablement programme: recomputed 185, published 185"
+ },
+ {
+  "ref": "IIId.row7",
+  "claim": "cost-of-service row total",
+  "result": true,
+  "detail": "row 7 Contact-centre bot: recomputed 200, published 200"
+ },
+ {
+  "ref": "IIId.row8",
+  "claim": "cost-of-service row total",
+  "result": true,
+  "detail": "row 8 Coverage summarisation: recomputed 90, published 90"
+ },
+ {
+  "ref": "IIId.col.licence",
+  "claim": "cost-line column total",
+  "result": true,
+  "detail": "column licence: recomputed 1516, published 1516"
+ },
+ {
+  "ref": "IIId.col.usage",
+  "claim": "cost-line column total",
+  "result": true,
+  "detail": "column usage: recomputed 793, published 793"
+ },
+ {
+  "ref": "IIId.col.build",
+  "claim": "cost-line column total",
+  "result": true,
+  "detail": "column build: recomputed 365, published 365"
+ },
+ {
+  "ref": "IIId.col.enablement",
+  "claim": "cost-line column total",
+  "result": true,
+  "detail": "column enablement: recomputed 392, published 392"
+ },
+ {
+  "ref": "IIId.col.ece",
+  "claim": "cost-line column total",
+  "result": true,
+  "detail": "column ece: recomputed 135, published 135"
+ },
+ {
+  "ref": "IIId.grand",
+  "claim": "grand total",
+  "result": true,
+  "detail": "grand total recomputed 3201, published 3201"
+ },
+ {
+  "ref": "IIId.roi1",
+  "claim": "line ROI",
+  "result": true,
+  "detail": "row 1: (1420-555)/555 = 155.86%, published 156%"
+ },
+ {
+  "ref": "IIId.roi2",
+  "claim": "line ROI",
+  "result": true,
+  "detail": "row 2: (827-277)/277 = 198.56%, published 199%"
+ },
+ {
+  "ref": "IIId.roi3",
+  "claim": "line ROI",
+  "result": true,
+  "detail": "row 3: (900-440)/440 = 104.55%, published 105%"
+ },
+ {
+  "ref": "IIId.h1",
+  "claim": "headline 1 total cost of service",
+  "result": true,
+  "detail": "$3.20M vs published $3.20M"
+ },
+ {
+  "ref": "IIId.h2",
+  "claim": "headline 2 value delivered",
+  "result": true,
+  "detail": "$3.15M vs published $3.15M"
+ },
+ {
+  "ref": "IIId.h3",
+  "claim": "headline 3 portfolio ROI",
+  "result": true,
+  "detail": "147.4% on $1.27M vs published 147% on $1.27M"
+ },
+ {
+  "ref": "IIId.h4",
+  "claim": "headline 4 internally consistent",
+  "result": false,
+  "detail": "headline prints $1,929k/60% but the findings table attributes it to rows 4,7,8 = $1,274k/40%; gap $655k = rows 5 and 6, both 'n/a by rule' and decided Keep"
+ },
+ {
+  "ref": "IIId.provision",
+  "claim": "expected cost of error in the ROI denominator",
+  "result": null,
+  "detail": "$135k of $1272k (10.6%). Portfolio ROI 147.4% with it, 176.8% without — 29 points. No document states whether it is an accrual or a memo line."
+ },
+ {
+  "ref": "IIId.tb.value",
+  "claim": "value delivered",
+  "result": false,
+  "detail": "88,100 x $9.40 = $828.1k, published $827k (out by $1.1k)"
+ },
+ {
+  "ref": "IIId.tb.ece",
+  "claim": "expected cost of error",
+  "result": true,
+  "detail": "3.4% x 88,100 x $7.30 = $21.9k, published $22k. The published formula's 'C2 x' term contributes nothing — consequence class is an ordinal label, not a multiplicand"
+ },
+ {
+  "ref": "A4.Foundation platforms a",
+  "claim": "catalogue group roll-up",
+  "result": false,
+  "detail": "Foundation platforms and assistants: sheet (12, 3, 0, 0) +3 mixed, A.4 publishes (14, 4, 0, 0)"
+ },
+ {
+  "ref": "A4.Coding, engineering an",
+  "claim": "catalogue group roll-up",
+  "result": true,
+  "detail": "Coding, engineering and IT: sheet (10, 12, 0, 0) +0 mixed, A.4 publishes (10, 12, 0, 0)"
+ },
+ {
+  "ref": "A4.Productivity, meetings",
+  "claim": "catalogue group roll-up",
+  "result": false,
+  "detail": "Productivity, meetings, writing, design and media: sheet (6, 19, 0, 0) +1 mixed, A.4 publishes (6, 19, 1, 0)"
+ },
+ {
+  "ref": "A4.Sales, marketing, supp",
+  "claim": "catalogue group roll-up",
+  "result": false,
+  "detail": "Sales, marketing, support, HR, legal, finance agents, data: sheet (12, 9, 0, 0) +1 mixed, A.4 publishes (13, 9, 0, 0)"
+ },
+ {
+  "ref": "A4.Infrastructure, agents",
+  "claim": "catalogue group roll-up",
+  "result": true,
+  "detail": "Infrastructure, agents, search, observability: sheet (10, 1, 1, 0) +0 mixed, A.4 publishes (10, 1, 1, 0)"
+ },
+ {
+  "ref": "A4.Financial systems",
+  "claim": "catalogue group roll-up",
+  "result": false,
+  "detail": "Financial systems: sheet (7, 8, 0, 0) +1 mixed, A.4 publishes (7, 8, 1, 0)"
+ },
+ {
+  "ref": "A4.Portfolio, work and pr",
+  "claim": "catalogue group roll-up",
+  "result": true,
+  "detail": "Portfolio, work and project management: sheet (12, 0, 0, 0) +0 mixed, A.4 publishes (12, 0, 0, 0)"
+ },
+ {
+  "ref": "A4.Aggregators and contro",
+  "claim": "catalogue group roll-up",
+  "result": true,
+  "detail": "Aggregators and control planes: sheet (11, 0, 0, 1) +0 mixed, A.4 publishes (11, 0, 0, 1)"
+ },
+ {
+  "ref": "A4.total",
+  "claim": "catalogue total roll-up",
+  "result": false,
+  "detail": "sheet (80, 52, 1, 1) with 6 dual-mode rows; A.4 publishes (83, 53, 3, 1) over 140"
+ },
+ {
+  "ref": "A4.verified",
+  "claim": "catalogue verification coverage",
+  "result": null,
+  "detail": "3 of 140 rows carry a verification date — consistent with A.2's statement that only the three starting hosts were checked"
+ },
+ {
+  "ref": "slot.Claims triage ",
+  "claim": "AIFA slot total",
+  "result": true,
+  "detail": "Claims triage model: recomputed 33, published 33"
+ },
+ {
+  "ref": "slot.Microsoft Copi",
+  "claim": "AIFA slot total",
+  "result": true,
+  "detail": "Microsoft Copilot: recomputed 25, published 25"
+ },
+ {
+  "ref": "slot.Internal GPT g",
+  "claim": "AIFA slot total",
+  "result": true,
+  "detail": "Internal GPT gateway: recomputed 15, published 15"
+ },
+ {
+  "ref": "slot.Dept. ChatGPT ",
+  "claim": "AIFA slot total",
+  "result": true,
+  "detail": "Dept. ChatGPT Team: recomputed 10, published 10"
+ },
+ {
+  "ref": "slot.arith",
+  "claim": "all four slot totals",
+  "result": true,
+  "detail": "33, 25, 15, 10 all reproduce exactly — confirms the 19 Sep arithmetic check independently"
+ },
+ {
+  "ref": "placement",
+  "claim": "placement reproducibility",
+  "result": false,
+  "detail": "Applying 5.3 in full gives stage 1; the 19 Sep review, using the staging answers alone, gives stage 2. Two readings of one rule, two stages apart, because no mapping from a 1-5 criterion score to a 1-5 stage is published."
+ }
+]

@@ -1,0 +1,56 @@
+{
+ "source": "RECONSTRUCTED from Vol II and the structure visible in Jay's scripted run. Jay's real set is data/assessment/question-set.json in Ethikal-Inc/outcomes, not on this machine.",
+ "per_item_intake_9_fields": [
+  "item",
+  "spend",
+  "origin",
+  "acquisition",
+  "deployment",
+  "measured",
+  "success_def",
+  "stage",
+  "since"
+ ],
+ "deployment_answers_observed": [
+  "Our normal process",
+  "A test group",
+  "A special process"
+ ],
+ "fit_criteria_10": [
+  "Standardization",
+  "Interoperability",
+  "Scalability",
+  "Reconfigurability",
+  "Sovereignty",
+  "Implementation flexibility",
+  "Manageability",
+  "Documentation",
+  "Standards compliance",
+  "Monitoring"
+ ],
+ "of_which_derived_not_asked": [
+  "Implementation flexibility",
+  "Reconfigurability",
+  "Scalability",
+  "Standardization"
+ ],
+ "staging_questions_5": [
+  "principles_endorsed",
+  "scored_repeatable_evaluation",
+  "outcome_stated_per_investment",
+  "adoption_measured_behaviourally",
+  "portfolio_owned"
+ ],
+ "intake_collects_benefits_owner": false,
+ "NOT_used_from_Jays_fixture": [
+  "the 121 individual answers",
+  "P0 introductions",
+  "P0B scoping + checklist offer",
+  "S1 what did you buy",
+  "S2 where does it run",
+  "S3 who actually uses it",
+  "S4 knowledge utilisation",
+  "the per-criterion answer option text (6 options each)",
+  "the 2 calibrating staging questions"
+ ]
+}

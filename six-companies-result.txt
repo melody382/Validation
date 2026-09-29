@@ -1,0 +1,196 @@
+============================================================================================================
+SIX SIMULATED COMPANIES THROUGH THE ABAF v0.8 INSTRUMENT
+Same question set for every company. The model does not invent: where the
+specification does not decide, it returns UNDEFINED and names the section.
+============================================================================================================
+
+
+### Ashford (scripted-run profile)  (insurance, 1,400 people, 5 investments, $3,439k)
+  admission      12.1 admits 5/5, 25.3 admits 4/5  -> the two tests disagree on: Internal GPT gateway
+  fit assessment 5/5 totals UNDEFINED (4 of 10 criteria underivable); complexity band UNDEFINED for all
+  slot selection UNDEFINED - largest-by-spend resolves (Claims triage model); 'widest by reach' has no reach field in...
+  evidence floor 4/5 undecidable; 0 definite breach(es)
+  ownerless      UNDEFINED - benefits owner is not an intake field (Vol II 11.1 calls it the most predictive single field)
+  placement      UNDEFINED  (Stage 3 thresholds met: False; 4 of 4 inputs have no level)
+  cost of service $1,644k, 4/5 rows incomplete (missing cost lines or no error rate)
+  ROI            1 computable, 0 UNDEFINED, portfolio ROI 209%; unlinked cost $1,184k
+  rebalance      UNDEFINED (no line-level fit score)
+  reliance       UNDEFINED for all 5 components
+
+
+### Ravensworth Retail  (retail, 4,200 people, 2 investments, $168k)
+  admission      12.1 admits 2/2, 25.3 admits 2/2
+  fit assessment 2/2 totals UNDEFINED (4 of 10 criteria underivable); complexity band UNDEFINED for all
+  slot selection UNDEFINED - largest-by-spend resolves (Vendor chatbot); 'widest by reach' has no reach field in the ...
+  evidence floor 2/2 undecidable; 0 definite breach(es)
+  ownerless      UNDEFINED - benefits owner is not an intake field (Vol II 11.1 calls it the most predictive single field)
+  placement      UNDEFINED  (Stage 3 thresholds met: False; 4 of 4 inputs have no level)
+  cost of service $168k, 2/2 rows incomplete (missing cost lines or no error rate)
+  ROI            0 computable, 0 UNDEFINED, portfolio ROI n/a; unlinked cost $168k
+  rebalance      UNDEFINED (no line-level fit score)
+  reliance       UNDEFINED for all 2 components
+
+
+### Pemberton Health  (healthcare, 9,000 people, 3 investments, $2,880k)
+  admission      12.1 admits 3/3, 25.3 admits 3/3
+  fit assessment 3/3 totals UNDEFINED (4 of 10 criteria underivable); complexity band UNDEFINED for all
+  slot selection UNDEFINED - largest-by-spend resolves (Triage assistant); 'widest by reach' has no reach field in th...
+  evidence floor 1/3 undecidable; 1 definite breach(es): Triage assistant
+  ownerless      UNDEFINED - benefits owner is not an intake field (Vol II 11.1 calls it the most predictive single field)
+  placement      UNDEFINED  (Stage 3 thresholds met: False; 4 of 4 inputs have no level)
+  cost of service $2,880k, 3/3 rows incomplete (missing cost lines or no error rate)
+  ROI            0 computable, 0 UNDEFINED, portfolio ROI n/a; unlinked cost $2,880k
+  rebalance      UNDEFINED (no line-level fit score)
+  reliance       UNDEFINED for all 3 components
+
+
+### Northgate Bank  (banking, 22,000 people, 2 investments, $3,900k)
+  admission      12.1 admits 2/2, 25.3 admits 2/2
+  fit assessment 2/2 totals UNDEFINED (4 of 10 criteria underivable); complexity band UNDEFINED for all
+  slot selection UNDEFINED - largest-by-spend resolves (Credit decision support); 'widest by reach' has no reach fiel...
+  evidence floor 0/2 undecidable; 0 definite breach(es)
+  ownerless      UNDEFINED - benefits owner is not an intake field (Vol II 11.1 calls it the most predictive single field)
+  placement      UNDEFINED  (Stage 3 thresholds met: True; 3 of 4 inputs have no level)
+  cost of service $1,719k, 0/2 rows incomplete (missing cost lines or no error rate)
+  ROI            2 computable, 0 UNDEFINED, portfolio ROI 79%; unlinked cost $0k
+  rebalance      UNDEFINED (no line-level fit score)
+  reliance       UNDEFINED for all 2 components
+
+
+### Strathmore Energy  (utilities, 6,100 people, 2 investments, $1,160k)
+  admission      12.1 admits 2/2, 25.3 admits 2/2
+  fit assessment 2/2 totals UNDEFINED (4 of 10 criteria underivable); complexity band UNDEFINED for all
+  slot selection UNDEFINED - largest-by-spend resolves (Outage predictor); 'widest by reach' has no reach field in th...
+  evidence floor 1/2 undecidable; 0 definite breach(es)
+  ownerless      UNDEFINED - benefits owner is not an intake field (Vol II 11.1 calls it the most predictive single field)
+  placement      UNDEFINED  (Stage 3 thresholds met: False; 4 of 4 inputs have no level)
+  cost of service $1,160k, 2/2 rows incomplete (missing cost lines or no error rate)
+  ROI            0 computable, 1 UNDEFINED, portfolio ROI n/a; unlinked cost $260k
+  rebalance      UNDEFINED (no line-level fit score)
+  reliance       UNDEFINED for all 2 components
+
+
+### Calder Logistics  (logistics, 3,300 people, 2 investments, $850k)
+  admission      12.1 admits 2/2, 25.3 admits 2/2
+  fit assessment 2/2 totals UNDEFINED (4 of 10 criteria underivable); complexity band UNDEFINED for all
+  slot selection UNDEFINED - largest-by-spend resolves (Route optimiser); 'widest by reach' has no reach field in the...
+  evidence floor 1/2 undecidable; 0 definite breach(es)
+  ownerless      UNDEFINED - benefits owner is not an intake field (Vol II 11.1 calls it the most predictive single field)
+  placement      UNDEFINED  (Stage 3 thresholds met: False; 4 of 4 inputs have no level)
+  cost of service $850k, 2/2 rows incomplete (missing cost lines or no error rate)
+  ROI            0 computable, 1 UNDEFINED, portfolio ROI n/a; unlinked cost $640k
+  rebalance      UNDEFINED (no line-level fit score)
+  reliance       UNDEFINED for all 2 components
+
+
+============================================================================================================
+WHERE THE INSTRUMENT CANNOT PRODUCE AN ANSWER
+============================================================================================================
+
+output                Ashford (scri  Ravensworth R  Pemberton Hea  Northgate Ban  Strathmore En  Calder Logist  
+----------------------------------------------------------------------------------------------------------------
+admission             DISAGREE       ok             ok             ok             ok             ok             
+fit total             UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      
+complexity band       UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      
+slot selection        UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      
+evidence floor        4 UNDEFINED    2 UNDEFINED    1 UNDEFINED    ok             1 UNDEFINED    1 UNDEFINED    
+ownerless finding     UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      
+placement             UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      
+cost of service       4 incomplete   2 incomplete   3 incomplete   ok             2 incomplete   2 incomplete   
+ROI                   ok             n/a            n/a            ok             UNDEFINED      UNDEFINED      
+portfolio rebalance   UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      
+reliance trajectory   UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      UNDEFINED      
+
+  50 of 66 instrument outputs could not be produced from the specification (76%).
+
+
+============================================================================================================
+DISTINCT SPECIFICATION GAPS HIT, BY FREQUENCY
+============================================================================================================
+
+  [ 18x] expected cost of error   (Vol I 4.5)
+         no observed error rate - 4.5 says an unmeasured C4 is an unbounded line, and that is the finding
+
+  [ 16x] derived criterion Standardization   (Vol II 12.5)
+         12.5 derives it from the deployment-model question, which IS asked and answered ('Our normal process'), but no table maps that answer to a 1-5 score. The implementation abandoned the derivation entirely (scripted run R27: 'nothing derived')
+
+  [ 16x] derived criterion Scalability   (Vol II 12.5)
+         12.5 derives it from the deployment-model question, which IS asked and answered ('Our normal process'), but no table maps that answer to a 1-5 score. The implementation abandoned the derivation entirely (scripted run R27: 'nothing derived')
+
+  [ 16x] derived criterion Reconfigurability   (Vol II 12.5)
+         12.5 derives it from the deployment-model question, which IS asked and answered ('Our normal process'), but no table maps that answer to a 1-5 score. The implementation abandoned the derivation entirely (scripted run R27: 'nothing derived')
+
+  [ 16x] derived criterion Implementation flexibility   (Vol II 12.5)
+         12.5 derives it from the deployment-model question, which IS asked and answered ('Our normal process'), but no table maps that answer to a 1-5 score. The implementation abandoned the derivation entirely (scripted run R27: 'nothing derived')
+
+  [ 16x] complexity band   (Vol II 12.4 / 12.5)
+         12.5 derives the band from the same missing table
+
+  [ 16x] fit assessment total out of 50   (Vol II 12.5)
+         four of the ten criteria cannot be produced
+
+  [ 16x] ownerless-investment finding   (Vol III 23.3 vs the delivered intake)
+         23.3 makes it one of the four findings discovery is built to surface, and 11.1 calls benefits owner the most predictive single field, but the intake does not ask for it
+
+  [  8x] expected cost of error   (Vol I 4.5)
+         no consequence class set
+
+  [  6x] least-governed slot   (Vol II 12.5)
+         'least governed' is measured by criteria 7 and 10, which are outputs of the assessment this rule is selecting the subject for
+
+  [  6x] company-practice roll-up for Standardization   (Vol I 5.3)
+         5.3 rolls these up 'at their floor' but never maps a 1-5 criterion score onto a 1-5 stage
+
+  [  6x] company-practice roll-up for Monitoring   (Vol I 5.3)
+         5.3 rolls these up 'at their floor' but never maps a 1-5 criterion score onto a 1-5 stage
+
+  [  6x] maturity placement   (Vol I 5.3)
+         'the level every input clears' cannot run while any input has no level
+
+  [  6x] portfolio rebalance ranking   (Vol I 4.7 / 22)
+         4.7 ranks investments on fit score against consequence-weighted exposure, but fit score is keyed to a component and portfolio rows to an investment line, with no line-level roll-up and no weighting formula
+
+  [  5x] which stage a company that fails Stage 3 sits at   (Vol I 5.2)
+         thresholds exist for Stage 3 only; stages 1, 2, 4 and 5 have narrative characteristics and no thresholds
+
+  [  4x] floor for an UNSET consequence class   (Vol II 11.2 / M.3)
+         11.2 calls UNSET a finding but gives it no floor, and M.3 has no Finding kind for it
+
+  [  3x] C3 floor test   (Vol II 11.3)
+         the floor reads 'Monitored, moving to Measured' - two values and a trajectory with no date, which cannot be tested pass/fail
+
+  [  2x] whether a C1/C2 with no evidence breaches   (Vol II 11.3 vs Vol III 23.3)
+         11.3 gives C1 and C2 a floor; 23.3 restricts breach to C3 and C4
+
+  [  2x] level from the five staging questions   (Vol II 14)
+         0 of 5 answered strongly, but no question carries a level scale - each has one 'weak answer' exemplar and nothing else
+
+  [  2x] level from the five staging questions   (Vol II 14)
+         5 of 5 answered strongly, but no question carries a level scale - each has one 'weak answer' exemplar and nothing else
+
+  [  2x] value delivered from a qualifying linkage   (Vol I 4.3 vs M.7)
+         4.3 qualifies a linkage on baseline OR counterfactual OR period, but M.7 computes (current - baseline) x unit value, which needs a baseline
+
+  [  1x] slot selection   (Vol II 12.5)
+         largest-by-spend resolves (Claims triage model); 'widest by reach' has no reach field in the question set; 'least governed' is circular; and no de-duplication rule exists when one capability satisfies two
+
+  [  1x] slot selection   (Vol II 12.5)
+         largest-by-spend resolves (Vendor chatbot); 'widest by reach' has no reach field in the question set; 'least governed' is circular; and no de-duplication rule exists when one capability satisfies two
+
+  [  1x] slot selection   (Vol II 12.5)
+         largest-by-spend resolves (Triage assistant); 'widest by reach' has no reach field in the question set; 'least governed' is circular; and no de-duplication rule exists when one capability satisfies two
+
+  [  1x] level from the five staging questions   (Vol II 14)
+         2 of 5 answered strongly, but no question carries a level scale - each has one 'weak answer' exemplar and nothing else
+
+  [  1x] slot selection   (Vol II 12.5)
+         largest-by-spend resolves (Credit decision support); 'widest by reach' has no reach field in the question set; 'least governed' is circular; and no de-duplication rule exists when one capability satisfies two
+
+  [  1x] slot selection   (Vol II 12.5)
+         largest-by-spend resolves (Outage predictor); 'widest by reach' has no reach field in the question set; 'least governed' is circular; and no de-duplication rule exists when one capability satisfies two
+
+  [  1x] slot selection   (Vol II 12.5)
+         largest-by-spend resolves (Route optimiser); 'widest by reach' has no reach field in the question set; 'least governed' is circular; and no de-duplication rule exists when one capability satisfies two
+
+  [  1x] level from the five staging questions   (Vol II 14)
+         4 of 5 answered strongly, but no question carries a level scale - each has one 'weak answer' exemplar and nothing else

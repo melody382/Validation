@@ -1,0 +1,650 @@
+rule_id,doc,section,subsection,kind,objects,text
+I-001,I,The Agentic Business Architecture Framework,Designing and managing the division of decision labour betwe,prose,aifa;artifact,"Volume II, The Instruments, carries the fit assessment, the evidence classes, the decision-component model, the staging questions and the company profile as reference; this"
+I-002,I,The Agentic Business Architecture Framework,Designing and managing the division of decision labour betwe,prose,admission;placement,"Ethikal's AI Maturity Model, described in §5, stands on conventions that the Capability Maturity Model Integration established over three decades: levels defined by thresholds rather than self-assessment, admission that is satisfied or not, a structure of grouped practices, and a firm line between rating one capability and rating a whole organization."
+I-003,I,The Agentic Business Architecture Framework,Designing and managing the division of decision labour betwe,prose,,This framework takes that structure and applies it to a different subject — how a company manages the division of decision labour between its people and its systems.
+I-004,I,The Agentic Business Architecture Framework,Designing and managing the division of decision labour betwe,prose,,"It reproduces none of CMMI's licensed content, is not a CMMI product, is not endorsed by ISACA, and awards no CMMI rating."
+I-005,I,In Brief,,prose,grade,"Only 39 percent of organizations can report a measured effect on earnings (ETR, 2026; McKinsey, 2025)."
+I-006,I,In Brief,,prose,,That is not a technology shortfall.
+I-007,I,In Brief,,prose,,Four instruments carry the framework.
+I-008,I,In Brief,,prose,mode;admission;evidence_class;aifa,"Ten criteria score out of fifty, complexity is reported as a band that qualifies the total, and admission is decided by mode: a thing that cannot be assigned a mode is substrate, recorded and not scored."
+I-009,I,In Brief,,prose,,An architecture is never scored against numbers no one can stand behind.
+I-010,I,In Brief,,prose,role;method_step,"The delivery model pairs one Principal Architect, who holds the decisions reserved to people, with a standing advisory bench that runs the method daily."
+I-011,I,In Brief,"The management gap, stated once",prose,linkage,"The remedy is the inventory and the target architecture: find what is running, then decide what should be."
+I-012,I,In Brief,"The management gap, stated once",prose,,Investments carry a narrative instead of a number.
+I-013,I,In Brief,Four recommendations,list,,A framework that cannot say where a number came from cannot defend the decision made on it.
+I-014,I,In Brief,"Precision is graduated, because the domain is not settled",prose,,This framework publishes what it can support and says plainly what it cannot.
+I-015,I,In Brief,"Precision is graduated, because the domain is not settled",prose,,Some instruments are scored; some are staged; some are recorded and not scored at all.
+I-016,I,In Brief,The vocabulary,table,evidence_class,"Evidence class | A cell-level claim about where a figure came from: STATED, REPORTED, OBSERVED, REQUIRES MEASUREMENT"
+I-017,I,In Brief,The vocabulary,table,consequence;evidence_floor,"Consequence class | What one wrong output from a decision component costs, C1 to C4. Sets how much evidence it must earn before its autonomy rises"
+I-018,I,1,1.1,prose,placement,"An Augmented Intelligence Technology Architecture is the description of the models, hosts, tools, knowledge and decision components used to support the business components of a company, together with the division of decision labour, between people and machines, that each decision component embodies."
+I-019,I,1,1.1,prose,,"The centre of it is not a model catalogue; it is a set of decisions the business makes, some of which a machine now participates in."
+I-020,I,1,1.2,prose,,The decision component is the unit of analysis.
+I-021,I,1,1.2,prose,mode,"Every decision component carries a mode: AUTOMATION, where it executes without a human decision; AUGMENTATION, where a person decides with machine participation; or UNDETERMINED, where no one has established which applies."
+I-022,I,1,1.2,prose,mode;finding,The undetermined count is the material finding.
+I-023,I,1,1.2,prose,,"It measures where the company has stopped knowing who decides, and in most companies it is unknown because no one has looked."
+I-024,I,1,1.2,prose,mode;admission,Mode is the admission test for the whole framework.
+I-025,I,1,1.2,prose,admission,"A thing that cannot is substrate — recorded, depended upon, and not scored."
+I-026,I,1,1.2,prose,mode,"A model gateway has no mode: it decides nothing, and things decide through it."
+I-027,I,1,1.4,prose,placement,"Three kinds of change move them: supply-side change, as vendors reprice and re-release; regulatory change, as obligations attach to classes of system; and competitive change, when a rival reaches a cost or cycle-time position that only an augmented operating model explains."
+I-028,I,2,,prose,,"Steps for identifying stakeholders, establishing principles, integrating with existing governance, developing policies and standards, standing up the management programme, communicating, and publishing are the ordinary architecture-development cycle, and they are specified in The Open Group's TOGAF ADM."
+I-029,I,2,,prose,,A company already running an ADM cycle runs these steps as it always has; a company that is not should adopt them from TOGAF or an equivalent.
+I-030,I,2,,prose,,"Two things are added to them, and they are the only two changes the agentic layer makes to the generic cycle:"
+I-031,I,2,,list,,Governance must allocate decision rights over decisions.
+I-032,I,2,,list,,"By domain: what an agent may decide alone, what it may prepare for a person to decide, what it may not touch, who may change those settings, on what evidence, and how quickly a change can be reversed."
+I-033,I,2,,list,,"An allow-list of specific actions with a tier attached, with the audit record written before the mutation occurs."
+I-034,I,2,,list,,A deny-list governs only the failures its authors anticipated.
+I-035,I,2,The five steps that are this framework's own,prose,evidence_class;aifa,"Ten criteria, scored 1 to 5, with complexity reported as a band alongside rather than summed into the total."
+I-036,I,2,The five steps that are this framework's own,prose,evidence_class,"Most of a first pass will be STATED and REQUIRES MEASUREMENT, and that is the correct output of a first pass — an absence that was searched for is evidence."
+I-037,I,2,The five steps that are this framework's own,prose,linkage,Specify the target at the level that will remain true.
+I-038,I,2,The five steps that are this framework's own,prose,feed,"Decision components, their modes, their knowledge dependencies, their consequence classes and their required evidence persist; model and host choices do not."
+I-039,I,2,The five steps that are this framework's own,prose,aifa,Every existing project and initiative is scored against the same criteria.
+I-040,I,2,The five steps that are this framework's own,prose,,"Some will be better cancelled, and saying so is the point of having an instrument."
+I-041,I,2,What each step produces,table,linkage,"3 · Target | Target architecture, with modes, consequence classes and required evidence | —"
+I-042,I,2,What each step produces,prose,artifact,"Baseline is a property each artifact carries, not a single object."
+I-043,I,3,3.1,prose,role,The bench's boundary is the limit of delegation.
+I-044,I,3,3.1,prose,role,"Decisions reserved to people stay reserved, and the actions the bench may take are enumerated rather than inferred."
+I-045,I,3,3.2,prose,,These are reserved because each of them is a decision whose reversal is expensive and whose failure is invisible for a long time.
+I-046,I,3,3.3,prose,artifact;method_step,The daily architecture brief is the communications engine.
+I-047,I,3,3.4,prose,,The function has three parts: assess the architecture and its components; enable the people who must use them; and advise the decisions that follow.
+I-048,I,3,3.4,prose,,"The second is the one companies skip, and it is the one with the clearest return — see §4."
+I-049,I,3,3.4,prose,knowledge,"Two disciplines carry the standing work: knowledge, which owns freshness, classification, conflict resolution and portability; and landscape, which tracks the supply side at its own pace."
+I-050,I,4,,prose,,They cannot own a business benefit.
+I-051,I,4,,prose,,Accountability established before funding is the strongest available predictor of a return.
+I-052,I,4,4.1,prose,,"The framework holds three distinct objects, and confusing them is the commonest failure in this chapter."
+I-053,I,4,4.1,prose,portfolio,The Inventory and the Portfolio are never called a register.
+I-054,I,4,4.1,prose,,"Register and registry are reserved for standards, governance, compliance and audit, where they mean something specific."
+I-055,I,4,4.1,prose,,"Both record roles, not people."
+I-056,I,4,4.1,prose,,There are no individual-level records anywhere in the people class of this framework.
+I-057,I,4,4.2,prose,grade,"AI investment divides into four classes, and each is justified, measured and retired differently."
+I-058,I,4,4.2,prose,portfolio,"They are four different arguments about why money should be spent, and a portfolio that applies one argument to all four will fund the wrong things — usually Agents and Vendor tools, which demonstrate, over People and Systems, which enable."
+I-059,I,4,4.3,prose,linkage;feed,"Every investment carries an outcome linkage, naming the metric it should move and by how much."
+I-060,I,4,4.3,prose,linkage;role,"Every investment carries a named benefits owner, established before funding rather than after delivery."
+I-061,I,4,4.3,prose,artifact;linkage,"A linkage claim qualifies only where it names a baseline, a counterfactual, or a period."
+I-062,I,4,4.4,prose,,The last row is the one most companies need and few hold.
+I-063,I,4,4.4,prose,grade;cost,"Enablement is treated as a soft cost attached to a deployment, and is therefore never justified, budgeted or measured."
+I-064,I,4,4.5,prose,,An organization that cannot predict how its costs will change cannot justify sound investments.
+I-065,I,4,4.5,table,cost,"Licence and seat | Yes | The only line most companies can produce, and usually the minority of the real number"
+I-066,I,4,4.5,table,cost,Enablement and organizational | Almost never | The largest line and the least tracked
+I-067,I,4,4.5,table,evidence_class;consequence;finding;cost,"Expected cost of error | Almost never | Consequence class × observed error rate × exposure. A C4 component with an unmeasured error rate has an unbounded line here, and that is the finding"
+I-068,I,4,4.5,prose,consequence,"It is what makes the affordability argument work in both directions: a cheap component that decides something expensive is not cheap, and an expensive control on a C1 component is waste."
+I-069,I,4,4.5,prose,cost;portfolio,"Where the Portfolio carries actual cost of service per investment against actual delivered use and outcomes, maintained continuously rather than reconstructed at budget time, the finance function's confidence follows."
+I-070,I,4,4.5,prose,cost,A company that knows its per-investment cost of service can answer the renewal question — is this worth what we pay for it — with evidence instead of the incumbency bias that governs most software renewals.
+I-071,I,4,4.6,prose,portfolio,"That is the whole of the management claim, and it has two halves that fail independently: an architecture aligned to nothing profitable, and a portfolio funding things the architecture cannot support."
+I-072,I,4,4.7,prose,,An instrument that has never produced a cancellation is not being used.
+I-073,I,4,4.8,prose,placement,The framework must measure not only the architecture but the effect of the company's AI maturity on the business.
+I-074,I,4,4.8,prose,evidence_class;placement,"That is external, correlational and self-reported, and it is the best evidence currently available that a maturity placement predicts a business outcome."
+I-075,I,4,4.8,prose,grade;placement,"This framework's own contribution is to make the placement falsifiable: a company that is measured but not managed has a placement and no curve, and a placement that cannot be traced to a business number is an assessment result rather than a management claim."
+I-076,I,5,,prose,admission;placement,"And admission is non-compensatory: a level is satisfied or it is not, and strength at one threshold does not purchase a shortfall at another."
+I-077,I,5,,prose,,What the extension adds is the subject matter.
+I-078,I,5,,table,placement,"1 · Experimenting | Individual, ad hoc use. No sanctioned tools, no measurement, no record"
+I-079,I,5,,table,placement;artifact,3 · Managed | Company knowledge governed and delivered into every tool. One record spans them. The scorecard is in place and the board reads it
+I-080,I,5,,table,grade;placement;cost,"4 · Optimized | Measured outcomes drive spending, enablement and autonomy decisions. Recommendations carry a track record"
+I-081,I,5,,prose,placement,"Managed and Optimized are the vocabulary of established capability maturity models, and shared vocabulary is an asset."
+I-082,I,5,5.1,prose,evidence_class,The names are settled; the offset is stated here so the shared vocabulary stays an asset.
+I-083,I,5,5.1,prose,evidence_class;placement,A placement on this model is not a CMMI level and is never reported as one.
+I-084,I,5,5.1,prose,evidence_floor,The first is the floor the second stands on.
+I-085,I,5,5.2,prose,placement,"Stage 3 is the stage the framework most needs to define, because it is the first stage at which the model predicts a business outcome and because a product commitment asserts it."
+I-086,I,5,5.2,list,,One record spans the hosts.
+I-087,I,5,5.2,list,role,"A behavioural record with provenance, by role."
+I-088,I,5,5.2,list,artifact;method_step,"A scorecard exists, it carries evidence classes, and it is read at board level on a cadence."
+I-089,I,5,5.2,prose,grade;evidence_floor,"The structural floor is CMMI's Defined level: one organizational standard, tailored per use, with adherence measured."
+I-090,I,5,5.2,prose,placement;finding,"The external evidence is MIT CISR's finding that financial performance turns positive between their stage 2 and stage 3, whose content is the same content."
+I-091,I,5,5.2,prose,placement,The commercial commitment is the chartered outcome already offered to companies entering at Stage 2\.
+I-092,I,5,5.2,prose,,"Three independent sources agreeing is the argument; none of them is a company assessed against these thresholds, which is why the status is IN REVIEW."
+I-093,I,5,5.3,prose,placement,Placement is the level every input clears.
+I-094,I,5,5.3,prose,,"Averaging would report a company as half-managing an investment, which is not a state that exists."
+I-095,I,5,5.3,prose,evidence_floor;aifa;placement,Criteria that describe company practice — Standardization and Monitoring among them — roll up to placement at their floor.
+I-096,I,5,5.3,prose,placement;artifact,"It is a capability instrument, not a maturity instrument, and the separation is deliberate: a profile that summed to a stage would let strength in one dimension purchase weakness in another."
+I-097,I,5,5.4,prose,aifa;placement,"The Maturity Curve is the visualization of AIFA effect over time as a company is managed through the Model — placement plotted against successive assessments, with the interventions between them marked."
+I-098,I,5,5.4,prose,,"A curve requires a plan, an intervention, and a second reading."
+I-099,I,5,5.4,prose,placement,"Every threshold describes a management practice, an accountability or a class of evidence."
+I-100,I,5,5.5,prose,evidence_class,"Most of the first pass will be STATED and REQUIRES MEASUREMENT, and that is correct."
+I-101,I,5,5.5,prose,aifa,"Transfer the process, adjusting where required, and run the AIFA for each new domain."
+I-102,I,5,5.5,prose,,"And the knowledge discipline is the part most often skipped, because the successful function solved its knowledge problem locally and no one noticed."
+I-103,I,5,5.5,list,evidence_class,"How many cells still read REQUIRES MEASUREMENT, and is that number falling?"
+I-104,I,5,5.5,list,placement,"It cannot add supervision indefinitely, and the point at which it stops noticing the difference is the point at which the architecture stops being managed."
+I-105,I,Part Three · Reference Implementation,,prose,,It is included rather than withheld: a methodology whose only working implementation is hidden gets implemented badly and then blamed for the results.
+I-106,I,16,,prose,,ABAF is the methodology it implements.
+I-107,I,16,,table,grade;placement;artifact;method_step,"Measurement | 2 | Scorecard Monitoring | Scorecard (Monitored); other artifacts updated on cadence. Measurement added to the data in the artifacts | Monitored, data reaching Measured | Sustains placement; supplies the adoption-measured threshold of Stage 3"
+I-108,I,16,,table,grade;placement,"Management | 2 | Managed AI | Progression measured against the Plan; stakeholder management toward it; the Maturity Curve | Measured against the Plan | Carries a company to and through Stage 3 · Managed, and onward"
+I-109,I,16,,prose,,"That is the intent, and the reason those thresholds are a product dependency rather than an editorial matter."
+I-110,I,16,,prose,,Discovery is the point of Measurement.
+I-111,I,16,,prose,grade,"Behaviour and proficiency cannot be measured in the Measurement module, because there is nothing to measure them against."
+I-112,I,16,,prose,,"This is a structural property of the method rather than a commercial gate: a company can buy Measurement alone and get real value from it, and cannot get a behavioural claim out of it at any price."
+I-113,I,16,Chartered outcomes by entry stage,table,grade;placement,"Stage 2 · Adopting | Reach Managed: architecture documented and scored, governance operating, adoption measured, quick-hit value recorded"
+I-114,I,17,,prose,knowledge;feed;role,"It picks up from the Outcomes Captain when monitoring begins, builds out the initial measurement, uses the Company Domain Environment to carry the company's standards through every host environment, gathers measurement data, and assists each employee to become more proficient with their tools."
+I-115,I,17,,prose,role,The bench's cost is a fixed capability cost amortized across engagements; the Principal Architect's time is the scarce input and the constraint on how many engagements a practice can carry.
+I-116,I,18,,prose,aifa;feed,"The Quick Look Fitness Assessment is the short-form AIFA: three scored slots, six asked criteria, four derived, complexity band, delivered inside the host in a guided session."
+I-117,I,18,,prose,grade;aifa;placement;artifact,"The Scorecard artifacts are the Inventory, the AIFA total with its criterion scores, the Maturity placement, and the evidence-class map — each carrying its own baseline and grade."
+I-118,I,18,,prose,placement,"The Maturity Curve as delivered plots placement against successive assessments with interventions marked, and is available only from Management Phase 2, because a curve requires a plan and an intervention between readings."
+I-119,I,19,,prose,knowledge,"Outcomes is delivered as agentic software inside the AI hosts the company already runs, with the Company Domain Environment carrying the company's standards, knowledge and policies across hosts so that one record spans them."
+I-120,I,19,,prose,evidence_class;feed,The measurement layer reads host analytics and activity stores where connections exist and records REQUIRES MEASUREMENT where they do not.
+I-121,I,20,,prose,,Rungs are the marketing terms and are correct in the business plan and product material; the methodology is not product-specific and does not use them.
+I-122,I,20,,table,role,"2 · Outcomes Measurement | Measurement Phase 2 | Same, with the Company Captain owned by the client taking over from the Outcomes Captain at the handoff | Recurring subscription, priced on scored capabilities"
+I-123,I,21,,prose,admission;placement,What the firewall protected is preserved by the roll-up rule — placement is the level every input clears — which is the non-compensatory admission rule applied to a second input.
+I-124,I,21,,prose,,Characteristics that trade off against each other cannot be summed as though they accumulate.
+I-125,I,21,,prose,,"A single additive total containing both capability and complexity measures two dimensions on one axis, and a reader cannot recover either."
+I-126,I,21,,prose,evidence_floor,The evidence floor already states what a component's class requires; putting the requirement into the descriptor scale as well would say it twice and corrupt a clean scale to do it.
+I-127,I,21,,prose,,Why measurement cannot produce proficiency.
+I-128,I,21,,prose,,Behavioural measurement requires a management plan to measure behaviour against.
+I-129,I,21,,prose,artifact,"The Measurement module has data and nothing else, so it can report progression against a baseline and cannot say how a tool is used or how well."
+I-130,I,21,,prose,mode;artifact,"Its mode classification, tiered authorization and audit record map onto the NIST AI Risk Management Framework's Govern, Map, Measure and Manage functions as extended for agentic systems by its Agentic Profile, and onto the record-keeping and human-oversight requirements of Regulation (EU) 2024/1689."
+I-131,I,22,,table,,Proposed | Requires first
+I-132,I,22,,table,grade;evidence_floor,"A tail rule firing on the worst-performing identifiable class of instances | A decision on where it lives: the short form is barred from scoring measured accuracy, so it belongs in the evidence floor or the long assessment"
+I-133,I,22,,table,portfolio,Portfolio rebalancing weighted by consequence exposure | §4.7 now carries the rebalance action; the weighting formula is unwritten
+I-134,I,22,,table,evidence_class,"A record store with stated invariants, bitemporality and a human-or-agent actor field | The store, which is not specified anywhere in this framework"
+I-135,I,22,,table,,An explicit list of what the deployment model does not predict | §12.5 now carries three items; the full list is unwritten
+I-136,I,24,Standards and frameworks,list,,"Regulation (EU) 2024/1689 (EU AI Act) — four-tier risk classification; Articles 12–13 record-keeping, logging and transparency for high-risk systems, effective 2 August 2026\."
+I-137,I,24,Standards and frameworks,list,,"AI specialist skills defined by responsibility level; non-specialist AI literacy called for and not defined, which is the gap this framework names."
+I-138,I,24,Companion methodology and book,list,,How a company builds agentic software; this framework governs how it manages what it has built.
+I-139,I,25,Version history,table,evidence_class;grade,0.6 | 2026-08-27 | Rung headings; REPORTED stamp; MEASURED defined from behavioural record. Superseded
+I-140,I,25,Version history,table,,0.7 | 2026-09-04 | Framework/product split; body made vendor-neutral; Appendices A–E carry the reference implementation
+I-141,I,25,Version history,table,evidence_class;grade;consequence;evidence_floor;aifa;placement;portfolio,"0.8 | 2026-09-16 | Simplification pass: restructured into two volumes — Methodology and Instruments — argument moved to the companion book, \~30,000 words to \~14,000. Evidence vocabulary replaced (four classes; grade/class collision removed). Consequence class and reversibility added as component attributes with an evidence floor. Criterion 10 consequence gate added as a reading rule. Investment and Portfolio chapter written. Stage 3 thresholds proposed. CMMI structural inheritance and crosswalk stated; Ethikal's AI Maturity Model named. Generic architecture steps referred to TOGAF rather tha"
+I-142,I,25,Section status,prose,,Volume II sections (§11–§15) carry their own status table; the two are reproduced together here.
+I-143,I,25,Section status,table,consequence;evidence_floor,§11 The Decision Component (Vol. II) | IN REVIEW — consequence class and the evidence floor are new
+I-144,I,25,Gate on an external edition,prose,aifa;placement;artifact,"An external edition requires: the Volume II §15 descriptors written against real companies; inter-rater reliability established for the AIFA and the profile; the Stage 3 thresholds ruled; the consequence-class reliability item resolved; and the CMMI pre-publication checklist run in full, including that no licensed CMMI or appraisal-method wording appears and that the trademark notice is present."
+I-145,I,Editorial Notes,,prose,,The simplification is the edition.
+I-146,I,Editorial Notes,,prose,,"Every other change could have waited; this one could not, because a methodology nobody can read never gets used, and the document was accumulating argument faster than method."
+I-147,I,Editorial Notes,,prose,,"The test applied throughout was whether a sentence tells a practitioner what to do, tells a reader why the framework is built this way, or records what an earlier draft got wrong."
+I-148,I,Editorial Notes,,prose,,"The first stays in Parts One and Two, the second goes to §21 or to the book, and the third was cut."
+I-149,I,Editorial Notes,,prose,,Moving the argument to the book is the largest structural bet here.
+I-150,I,Editorial Notes,,prose,,"The mitigation is the pointer in ""How to read this,"" and the judgment is that a reader who wants the argument will accept being sent to it, while a reader who wants the method will not accept wading through it."
+I-151,I,Editorial Notes,,prose,,"Steps 1, 2, 3 and 9 through 12 of v0.7 are the ordinary architecture development cycle, and two of them ran under 120 words — numbering that gave a 57-word step the same standing as a 3,454-word instrument."
+I-152,I,Editorial Notes,,prose,,"Referring them to TOGAF costs the document its claim to completeness and buys back both length and honesty: the framework's contribution is the five steps that are its own, plus the two changes the agentic layer makes to governance."
+I-153,I,Editorial Notes,,prose,aifa,In v0.7 the AI Fit Assessment and the evidence discipline were §3.4 and §3.5 — findable only by navigating a twelve-step sequence.
+I-154,I,Editorial Notes,,prose,method_step,"They are the parts a practitioner opens weekly, and they version on their own cadence (§12 is ACCEPTED while §13 and §15 are not)."
+I-155,I,Editorial Notes,,prose,,"It was not applied because the section's own open questions include whether nine is the right number and where two pairs of boundaries fall, and restructuring an instrument before those are tested against a company would mean doing it twice."
+I-156,I,Editorial Notes,,prose,,That is the status line's meaning and it should not be read as a soft ACCEPTED.
+I-157,I,Editorial Notes,,prose,,The MIT CISR figures are from CISR's public briefing and press material; the August 2025 update's revised figures are members-only and were not read.
+I-158,I,Editorial Notes,,prose,cost,"The correspondence tables in §5.1 and Volume II §13.7 are written from public descriptions in the framework's own words, and the usage guidelines' checklist governs any further use."
+II-001,II,Volume II · The Instruments,"The decision component, the AI Fit Assessment, evidence clas",prose,placement;portfolio,"Volume I, The Methodology, carries the method in sequence, the operating model, the investment and portfolio chapter, the AI Maturity Model, the reference implementation, and the rationale, bibliography and document control."
+II-002,II,How to use this volume,The vocabulary the instruments share,table,mode;admission,"Mode | AUTOMATION, AUGMENTATION or UNDETERMINED. The admission test: a thing that cannot be assigned a mode is substrate — recorded, not scored"
+II-003,II,How to use this volume,The vocabulary the instruments share,table,evidence_class,"Evidence class | A cell-level claim about where a figure came from: STATED, REPORTED, OBSERVED, REQUIRES MEASUREMENT"
+II-004,II,How to use this volume,The vocabulary the instruments share,table,consequence;evidence_floor,"Consequence class | What one wrong output from a decision component costs, C1 to C4. Sets how much evidence it must earn before its autonomy rises"
+II-005,II,How to use this volume,The vocabulary the instruments share,table,artifact,Baseline | A property each artifact carries: its value at the point it was first produced
+II-006,II,11,11.1,table,,Attribute | What it records
+II-007,II,11,11.1,table,knowledge,"Knowledge dependency | What the component must know to be correct, where that knowledge lives, and who owns its freshness"
+II-008,II,11,11.1,table,artifact;linkage,"Outcome linkage | The business outcome it should move, and by how much. Qualifies only where it names a baseline, a counterfactual, or a period"
+II-009,II,11,11.1,prose,,Four attributes carry most of the weight.
+II-010,II,11,11.1,prose,linkage;role,Benefits owner is the most predictive single field.
+II-011,II,11,11.1,prose,,A component with an empty evidence row is not a component that happens to lack tests.
+II-012,II,11,11.1,prose,reliance,"Reliance trajectory is the attribute companies do not currently hold, and the reason the second modelling pass earns its cost."
+II-013,II,11,11.1,prose,mode;reliance,"Reliance moves without a decision, so a model that records only the intended division of labour describes a company that no longer exists."
+II-014,II,11,11.1,prose,consequence;evidence_floor,"Consequence class sets the price of being wrong, and therefore how much evidence the component must earn before its autonomy rises."
+II-015,II,11,11.2,table,consequence,"C3 | A material financial, contractual or regulatory consequence | Requires disclosure, credit, or correction to a third party"
+II-016,II,11,11.2,table,consequence,"C4 | Harm that cannot be undone by money | Safety, legal standing, a person's rights, or a decision with no second chance"
+II-017,II,11,11.2,prose,consequence;feed,"Consequence class is set by the business, not by the technology function, and it is a property of the decision, not of the model or host that happens to execute it."
+II-018,II,11,11.2,prose,evidence_floor,The two together set the evidence floor.
+II-019,II,11,11.3,prose,evidence_floor,"The floor states the minimum evidence a component must hold before its autonomy may rise, and the control that must be in place."
+II-020,II,11,11.3,prose,grade;finding,The gap between the grade a component holds and the grade its class requires is the finding.
+II-021,II,11,11.3,prose,evidence_class,"It is reported as a gap, never folded into a score."
+II-022,II,11,11.4,table,mode;grant,"Observe — read-only; summarizes, retrieves | AUGMENTATION | Machine informs; person decides and authors. No proposal is made"
+II-023,II,11,11.4,table,mode,Advise — recommends; people execute | AUGMENTATION | Machine proposes; person decides and authors
+II-024,II,11,11.4,table,mode,Act autonomously — operates within guardrails; people review outcomes | AUTOMATION | Machine decides and executes; person reviews after the fact
+II-025,II,11,11.4,prose,evidence_floor,"That scaling is the evidence floor of §11.3, read from the other direction."
+II-026,II,11,11.4,prose,,"The Decision Model and Notation standard's decision requirements diagram is a published, tool-supported notation for the by-decision view below, and may be used to render it."
+II-027,II,11,11.5,table,mode;evidence_class;placement;reconciliation;feed;method_step,"Reduce cycle time on first notice of loss by 40% while holding leakage flat | Intake · Triage · Assignment | Severity classification (model-proposed, adjuster-confirmed above threshold) · Duplicate detection (automated) · Coverage summarisation (model-drafted, adjuster-authored) | AUGMENTATION · AUTOMATION · AUGMENTATION | Contact host \+ claims model \+ policy document store; autonomy: propose-only above threshold | Policy wordings; endorsement history; state bulletins; prior-claim precedent | Sampled adjuster override rate, weekly; leakage reconciliation, quarterly; no evaluation on coverage"
+II-028,II,11,11.5,prose,evidence_floor;finding;feed,"The coverage-summarisation row therefore sits below its floor, and that is the finding the table is built to surface."
+II-029,II,12,,prose,evidence_class,Complexity is reported alongside as a band and is never summed into the total.
+II-030,II,12,12.1,prose,admission,"A thing that cannot is substrate: recorded, depended on, and not scored."
+II-031,II,12,12.1,prose,mode,"A model gateway has no mode; it decides nothing, and things decide through it."
+II-032,II,12,12.2,table,,"2 | Interoperability across hosts | Does it work with the other hosts the company runs, or only its own?"
+II-033,II,12,12.3,list,,Computed values are rendered visually distinct from asked ones.
+II-034,II,12,12.3,list,,A reader must be able to see which numbers a person gave and which the instrument derived.
+II-035,II,12,12.4,prose,,"Characteristics that trade off against each other cannot be summed as though they accumulate, and a second band measuring an adjacent property would invite a reader to add the two together."
+II-036,II,12,12.5,prose,,"Three slots are scored per assessment, chosen by rule so the method is visible before anything is bought: the capability largest by spend, the widest by reach, and the least governed."
+II-037,II,12,12.5,prose,aifa,"One question — the deployment model — carries Standardization, Scalability, Reconfigurability and Implementation flexibility, plus the complexity band."
+II-038,II,12,12.5,prose,,"Proficiency in particular cannot be read from activity or behaviour at all, and nothing in the framework produces the comparison it would need until a plan exists."
+II-039,II,12,12.6,prose,aifa,"Criterion 10 is source-neutral by design: the level turns on what the record contains, not on who produced it."
+II-040,II,12,12.6,prose,,The scale measures one thing — what the company can find out about what a capability did — and it stays that way.
+II-041,II,12,12.6,prose,grade;consequence,> Level 4 monitoring on a C4 component whose required evidence grade is unmet is a warning condition.
+II-042,II,12,12.6,prose,evidence_class,It is reported alongside the score and is never summed into it.
+II-043,II,12,12.6,prose,evidence_floor;finding,The gap between held and required is already the evidence floor's finding (§11.3).
+II-044,II,12,12.6,prose,,"Folding the same judgment into the descriptor scale would say it twice and put two dimensions on one axis, which is the defect that moved complexity out of the additive total."
+II-045,II,12,12.7,prose,aifa;cost,"Usage and policy control stay in Criterion 7, because a policy that constrains behaviour is operational control rather than spend."
+II-046,II,12,12.7,prose,,"Level 2 is the ceiling for a system the company does not operate, however good the vendor console is."
+II-047,II,12,12.7,prose,aifa,Agent governance is not a separate criterion.
+II-048,II,12,12.7,prose,,They are the best available grounding and they were not written for a division of decision labour.
+II-049,II,13,13.1,prose,grade;artifact,A grade is a property of an artifact.
+II-050,II,13,13.1,prose,,A class is a property of a cell.
+II-051,II,13,13.2,table,evidence_class;feed,"REPORTED | A system said so — an administrative interface, an expense record, a host console | REPORTED \+ FOUND IN EXPENSE DATA"
+II-052,II,13,13.2,table,evidence_class;grade,OBSERVED | An activity record with provenance | MEASURED (as a cell value)
+II-053,II,13,13.2,table,evidence_class,REQUIRES MEASUREMENT | The figure was searched for and no mechanism exists to produce it | unchanged
+II-054,II,13,13.2,prose,evidence_class,Which system produced a REPORTED figure stays a field on the record and is not printed.
+II-055,II,13,13.5,list,,Never ask a question whose answer can be looked up.
+II-056,II,13,13.5,list,evidence_class;finding,Treat REQUIRES MEASUREMENT as a finding.
+II-057,II,13,13.5,list,,An absence that was searched for is evidence; one that was never searched for is not.
+II-058,II,13,13.5,list,,Most instruments cannot represent that state and therefore read candour as a gap.
+II-059,II,13,13.6,prose,,Behaviour requires a record with provenance across hosts.
+II-060,II,13,13.6,prose,,"Proficiency cannot be read from either, and nothing produces the comparison it needs until a management plan exists to compare against."
+II-061,II,13,13.6,prose,,This is the framework's most-cited limitation and it is deliberate.
+II-062,II,13,13.7,table,evidence_class,"OBSERVED | Tangible output | Direct, and narrower: provenance is required"
+II-063,II,13,13.7,table,evidence_class,REQUIRES MEASUREMENT | no counterpart | Ours
+II-064,II,14,,table,,"Is there a scored, repeatable way to evaluate AI investments? | Business cases that vary by author"
+II-065,II,14,,prose,placement,A company that cannot name what it would point at is not stage-limited by its technology.
+II-066,II,14,,prose,placement,Placement is the level every input clears — see Volume I §5.3.
+II-067,II,15,,prose,artifact,"And its output is a profile and a bottleneck, not a total: the dimensions do not sum, and what the instrument produces is nine positions plus the identification of which dimension is holding the others back, because that is where the year's work goes."
+II-068,II,15,,prose,portfolio,Portfolio ownership sits in dimension 7 only.
+II-069,II,15,,prose,aifa,"Forty-five descriptors, none yet written against a real company — and descriptors written from a specification rather than from observation are the failure that retired an earlier version of the fit assessment."
+II-070,II,15,,prose,,Reliability: two assessors profiling the same company must land in the same place.
+II-071,II,15,,prose,,"And whether nine is the right number: dimensions 1 and 6 share a boundary at decision rights, and 3 and 5 share one at the inventory."
+II-072,II,Document Control · Volume II,,prose,,The two volumes are cut together and carry the same version number.
+II-073,II,Document Control · Volume II,,prose,,"Bibliography, section mapping from v0.7, design rationale and the external-edition gate are in Volume I §21–§25 and govern this volume too."
+II-074,II,Document Control · Volume II,Section status,table,consequence;evidence_floor,§11 The Decision Component | IN REVIEW — consequence class and the evidence floor are new in 0.8
+II-075,II,Document Control · Volume II,What changed in 0.8,prose,evidence_class;grade,"Evidence vocabulary replaced: four classes (STATED, REPORTED, OBSERVED, REQUIRES MEASUREMENT); NOT PROVIDED becomes a score label; COMPUTED becomes a rendering rule; no word is both a grade and a class."
+II-076,II,Document Control · Volume II,What changed in 0.8,prose,consequence;evidence_floor,Consequence class and reversibility added to the decision component with an evidence floor.
+II-077,II,Document Control · Volume II,What changed in 0.8,prose,,The worked example carries consequence classes.
+II-078,II,Editorial Notes,,prose,,The cost is two documents to keep in step; the shared section numbering and the single version number are the discipline that keeps them so.
+II-079,II,Editorial Notes,,prose,,The evidence rename is applied here in full and is the largest change a returning reader will meet.
+II-080,II,Editorial Notes,,prose,artifact,"It has not yet reached every artifact that renders these classes — the scorecard schema, the Advisor knowledge and the GTM material are on the propagation list — and until it does a client could meet both vocabularies."
+II-081,II,Editorial Notes,,prose,,The rename note in the Methodology folder carries the order of propagation.
+II-082,II,Editorial Notes,,prose,evidence_floor,"The evidence floor of §11.3 already says what a component's class requires; putting the requirement into the descriptor scale as well would say it twice and put two dimensions on one axis, which is the defect that moved complexity out of the additive total."
+II-083,II,Editorial Notes,,prose,cost,"And the correspondence table in §13.7 is written from public descriptions of appraisal evidence in the framework's own words; the CMMI usage guidelines' checklist governs any further use, and no appraisal-method wording is quoted."
+IIIa-001,IIIa,Volume III · The Integrations,Integrating ABAF into the company: discovering current AI wo,prose,,"Volume I, The Methodology, carries the method in sequence and the operating model."
+IIIa-002,IIIa,How to use this volume,,table,feed,Designing the record a feed lands in | §25 The normalized record
+IIIa-003,IIIa,How to use this volume,Vocabulary this volume adds,table,feed,"Host | A vendor platform on which the company's AI work runs and which exposes admin analytics. OpenAI, Anthropic and Google are the starting hosts; others are added from the Vendor connector catalogue as connectors are built"
+IIIa-004,IIIa,How to use this volume,Vocabulary this volume adds,table,grant;feed,Feed | A surface read under a grant and landed in the normalized record
+IIIa-005,IIIa,How to use this volume,Vocabulary this volume adds,table,grant;feed,"Grant | A read-only credential the company issues for one host, with a defined scope, custodian and revocation path"
+IIIa-006,IIIa,How to use this volume,Vocabulary this volume adds,table,finding;reconciliation;feed,"Reconciliation | Matching feed records against the declared inventory: confirmed, undeclared, idle"
+IIIa-007,IIIa,How to use this volume,Vocabulary this volume adds,table,artifact;knowledge;feed;role,"Company Domain Environment | The company's standards, knowledge and profile the Company Captain carries into every host (Vol I §17)"
+IIIa-008,IIIa,How to use this volume,Vocabulary this volume adds,prose,mode;evidence_class;grade;consequence,"Evidence classes (STATED, REPORTED, OBSERVED, REQUIRES MEASUREMENT), grades (Estimated, Monitored, Measured), mode, consequence class and the decision component are as defined in Volume II and are not restated here."
+IIIa-009,IIIa,21,,prose,,"It reads the records those processes leave on hosts and in a small number of business systems, and reconciles them against what the company declared."
+IIIa-010,IIIa,21,,list,grant;feed,Connection (§24–§25): reading host admin analytics under a read-only grant and landing them in one normalized record.
+IIIa-011,IIIa,21,,prose,,The Compliance-type APIs that hosts expose for eDiscovery return content and are never called by an ABAF integration; the reason is in §28.
+IIIa-012,IIIa,21,,list,grade;artifact;feed,"A feed moves a cell's class, never the artifact's grade."
+IIIa-013,IIIa,21,,list,evidence_class;grade;artifact;role;method_step,Monitored requires a named reviewer on a cadence; Measured requires a baseline compared against stated goals (Vol II §13).
+IIIa-014,IIIa,21,,list,evidence_class;artifact;role,"Those stay STATED by the business or OBSERVED by a Captain in the work, and the scorecard says so on the page."
+IIIa-015,IIIa,21,,list,,A computed cell is computed.
+IIIa-016,IIIa,21,,list,evidence_class,"A total assembled from three hosts renders as computed from REPORTED inputs, never as REPORTED (Vol II §13)."
+IIIa-017,IIIa,21,21.1,prose,portfolio,"Every investment line moves through one loop: Inventory → Monitor → Measure → Manage → Analyze → Decide → Act (expand, improve, retire) → back to Inventory."
+IIIa-018,IIIa,21,21.1,prose,,"Inventory, Monitor and Measure produce Evidence; Manage, Analyze and Decide produce Management objects; Act writes a new Architecture version, which is what the next Inventory pass starts from."
+IIIa-019,IIIa,21,21.1,prose,aifa;linkage,Volume I's five method steps map onto the loop: Discover is Inventory; Build the fit assessment and Apply it are Analyze; Review is Decide; Define the target is done in Manage.
+IIIa-020,IIIa,21,21.1,prose,,The loop is the operating cycle that runs once the five steps have been completed for the first time.
+IIIa-021,IIIa,21,21.1,table,feed;role,"Monitor | Company Captain | Grants, surfaces | Feed records, cells | Measurement Phase 2; once at Verification"
+IIIa-022,IIIa,21,21.1,table,grade;finding;artifact;feed;role,"Measure | Captain; user confirms | Feed records, inventory | Reconciliation, findings, deltas, artifact at Estimated | Verification and Measurement Phase 2"
+IIIa-023,IIIa,21,21.1,table,role;portfolio,"Decide | Reviewer with the Bench | Portfolio rows | Lifecycle decision per line: keep, grow, fix, retire | Management"
+IIIa-024,IIIa,21,21.1,table,portfolio,"Act | Company, through its portfolio system | Decisions | New Architecture version: line added, component re-scoped, line retired | Management"
+IIIa-025,IIIa,21,21.1,prose,method_step,"Measurement Phase 2 runs Inventory to Measure at the charter's cadence, and Management runs Manage, Analyze, Decide and Act."
+IIIa-026,IIIa,21,21.1,prose,grade;role,A period in which the reviewer did not sign renders at Estimated whatever the feeds did.
+IIIa-027,IIIa,22,,prose,evidence_class;artifact;grant,"Each supplies a different scorecard section, earns a different evidence class, and carries a different consent burden."
+IIIa-028,IIIa,22,,table,evidence_class;grant;feed,"Hosts | Seats, credits, tokens, active users, task or feature mix, engineering contribution | §1, §2, partial §3–§5 | REPORTED | Per-host read-only analytics grant"
+IIIa-029,IIIa,22,,table,evidence_class;grant,"Work records | Code hosting, ticketing, document systems: artifacts produced and used downstream | §4 artifacts; §5 outcomes | OBSERVED, where provenance is held | Repository / workspace read grant; Phase 2 only"
+IIIa-030,IIIa,22,,prose,,Three properties of the model decide most design questions later in this volume.
+IIIa-031,IIIa,22,,prose,,Spend systems and Work records are Phase 2 surfaces.
+IIIa-032,IIIa,22,,prose,feed,"Class is earned per cell, at the surface, not at the tier."
+IIIa-033,IIIa,22,,prose,evidence_class;artifact;feed,A company in Phase 2 still has STATED cells wherever no surface exists to replace them; the scorecard's visible incompleteness is the point.
+IIIa-034,IIIa,22,,prose,feed,The record of which surface fed which cell (§25) is what lets a reader trust the page.
+IIIa-035,IIIa,22,,prose,finding;reconciliation;feed;method_step,"Cross-host totals, the licensed-to-daily-use distance across the estate, and the shadow and idle findings all exist only in the normalized record, which is why §25 is the section the rest of the volume depends on."
+IIIa-036,IIIa,22,,prose,,"The five surfaces map to the framework's four forces (Vol I §2) as follows: Hosts and Work records instrument agentic strategies and outcomes; Spend systems and People instrument business strategies and outcomes and governance; Identity and Work records, read for reach and downstream use, instrument people and knowledge."
+IIIa-037,IIIa,23,,prose,method_step,"Discovery, Step 2 of the method in Vol I §2, is the act of writing it down."
+IIIa-038,IIIa,23,23.1,prose,role,"The Captain works outward from money, because spend is the one thing every company can find."
+IIIa-039,IIIa,23,23.1,table,mode;admission;evidence_class;role,"4 | Can each candidate be assigned a mode? | Captain proposes AUTOMATION, AUGMENTATION or UNDETERMINED; user confirms | Same, refined by observed division of labour | Admitted components; the rest recorded as substrate"
+IIIa-040,IIIa,23,23.1,table,consequence;role,"6 | What would one wrong output cost? | Captain proposes C1–C4 from the description; user confirms | Same, revised against incident record | Consequence class"
+IIIa-041,IIIa,23,23.1,table,evidence_class;role,"7 | How would you know it is right? | Whatever exists: a review, a sample, a dashboard, nothing | Work-record feeds; Company Captain sampling | Evidence row, or REQUIRES MEASUREMENT"
+IIIa-042,IIIa,23,23.1,prose,,"Steps 4 to 7 are the second modelling pass of Vol II §11: the first pass lists what the company runs, the second models the decisions inside it."
+IIIa-043,IIIa,23,23.1,prose,evidence_class;artifact;reconciliation;feed;role,"The Captain records who said each thing and when, so the Verified Baseline (§26) can show which STATED cells a host later confirmed."
+IIIa-044,IIIa,23,23.2,table,,Source | Supplies | Cannot supply
+IIIa-045,IIIa,23,23.2,table,,Procurement and security review records | Approved tools; declined tools people may be using anyway | Actual use
+IIIa-046,IIIa,23,23.3,list,mode,Candidates the user cannot assign a mode to.
+IIIa-047,IIIa,23,23.3,list,mode;finding,UNDETERMINED is a legitimate answer and a finding in its own right; it says the division of labour was never decided.
+IIIa-048,IIIa,23,23.3,list,evidence_class;consequence;evidence_floor;finding,"Each is a REQUIRES MEASUREMENT cell and, for C3 and C4 components, a floor breach (Vol II §11.3)."
+IIIa-049,IIIa,23,23.4,prose,,"Each inventory line carries its own provenance from the first session: who supplied it, on what date, from which source in 23.2, and at which class."
+IIIa-050,IIIa,23,23.4,prose,evidence_class;feed,"A line the CIO recalled from memory and a line read off an invoice are both STATED in Phase 1, but the record keeps the difference, because Verification and Monitoring will treat them differently: the invoice-backed line moves to REPORTED as soon as the billing feed connects; the recalled line waits for a host to confirm it or for nobody to."
+IIIa-051,IIIa,24,,prose,artifact;grant;feed,A connector reads one host's surfaces under a grant and lands them in the normalized record of §25; it never renders to the scorecard directly.
+IIIa-052,IIIa,24,,prose,,"OpenAI, Anthropic and Google are the starting hosts."
+IIIa-053,IIIa,24,,prose,feed,Further hosts are added from the Vendor connector catalogue as connectors are built; Microsoft 365 Copilot and GitHub Copilot are the first candidates.
+IIIa-054,IIIa,24,24.1,table,evidence_class;cost;method_step,"§1 Spend | Credits and tokens by group and user · REPORTED | Spend reports, daily with a one-day delay; seat-based Enterprise plans show overage only · REPORTED, partial on seat plans | Workspace add-on is a licence count, not usage; Vertex spend sits in Cloud Billing · REPORTED, two feeds"
+IIIa-055,IIIa,24,24.1,table,evidence_class;placement,"§2 Work mix by function (activity) | Task classifier: use cases and tasks by group, sample-based · REPORTED | No task classification; per-user only, function roll-up is built in §25 · REPORTED (adoption only) | Feature-level counts by app, plus per-event audit log with app, feature source and action · REPORTED; the closest of the three to an activity record"
+IIIa-056,IIIa,24,24.1,table,evidence_class,§4 Artifacts | None outside Codex · REQUIRES MEASUREMENT | Product analytics for Claude Design and Cowork · REPORTED where present | None · REQUIRES MEASUREMENT
+IIIa-057,IIIa,24,24.1,table,evidence_class;feed,"§5 Engineering outcomes | Codex Outcomes: share of merged commits and lines with Codex contribution · REPORTED | Lines accepted, suggestion accept rate, PRs and lines shipped with GitHub integration, CSV export · REPORTED; accept rate is the one quality-adjacent signal on any host | Code Assist metrics in Cloud · unverified, see §31"
+IIIa-058,IIIa,24,24.1,table,evidence_class;grade;cost,"Cost per component | Model, reasoning and speed share of credits per task · REPORTED | Token usage and estimated spend per user and model · REPORTED, per user not per task | Not exposed for Workspace; Vertex only · partial"
+IIIa-059,IIIa,24,24.1,table,grant;role,"Grant | Admin API key, created by an org admin | Analytics API key with read:analytics scope, created only by the Primary Owner; not interchangeable with a Console Admin key | Service account with Reports API scope; Cloud IAM for Vertex"
+IIIa-060,IIIa,24,24.1,prose,placement;cost,"Sources: OpenAI, How to connect AI usage to business value (openai.com/index/how-to-connect-ai-usage-to-business-value); Anthropic, Analytics APIs (platform.claude.com/docs/en/manage-claude/analytics-api); Anthropic, Claude Code analytics (code.claude.com/docs/en/analytics); Anthropic, usage analytics for Team and Enterprise (support.claude.com); Google, Review Gemini usage in your organization (knowledge.workspace.google.com); Google Workspace Updates, Gemini feature usage and threshold reports (February 2026)."
+IIIa-061,IIIa,24,24.2,prose,,The gap is the same on all three hosts.
+IIIa-062,IIIa,24,24.2,prose,artifact,"A company can obtain everything in 24.1 from its vendors; the items listed here are what it cannot obtain, and they are the reason a scorecard is needed."
+IIIa-063,IIIa,24,24.3,list,grant;feed,A connector never holds two companies' grants and never holds a grant beyond the session or subscription that issued it (§28).
+IIIa-064,IIIa,24,24.3,list,feed,"Surfaces that return prompt, completion, message or document content are excluded from the connector's scope at code level, not by policy."
+IIIa-065,IIIa,24,24.3,list,feed,"Every record lands with retrieved_at and the host's documented delay, so a cell can render its staleness."
+IIIa-066,IIIa,24,24.3,list,grant;feed,"A feed that returns nothing, or returns under the wrong key type, renders the affected cells at their prior class with a note, never as zero."
+IIIa-067,IIIa,24,24.4,list,grant;role,"Primary Owner enables public API access in Organization settings and creates an Analytics API key; an Admin key from the Console will authenticate and return nothing useful, which is the first thing the Captain checks on an error."
+IIIa-068,IIIa,25,,prose,feed,"Every feed lands in one record shape, owned by the company, held in the company's account."
+IIIa-069,IIIa,25,,prose,finding;artifact;feed,"The scorecard, the findings and the peer aggregates are all rendered from this record and from the inventory it reconciles against; nothing renders from a host response directly."
+IIIa-070,IIIa,25,,prose,,The full object model the record sits within is in the Consolidated object model.
+IIIa-071,IIIa,25,25.1,table,feed,"host | OpenAI, Anthropic, Google Workspace, Google Vertex, and further hosts as added | Cross-host totals are computed, never read"
+IIIa-072,IIIa,25,25.1,table,grant,grant_id | The grant under which it was read | Revocation removes every record read under it
+IIIa-073,IIIa,25,25.1,table,feed,"period_start, period_end | The host's reporting window | Feeds have different windows; the record does not pretend they align"
+IIIa-074,IIIa,25,25.1,table,,"value, value_unit | Number and unit (seats, credits, tokens, currency, count, share) | Never a bare number"
+IIIa-075,IIIa,25,25.1,table,evidence_class;feed,"evidence_class | REPORTED, or OBSERVED where the host holds the activity record with provenance | The class the cell will carry"
+IIIa-076,IIIa,25,25.3,prose,artifact,"The scorecard needs one vocabulary, and it is the framework's own, not a vendor's."
+IIIa-077,IIIa,25,25.3,prose,,Mapping runs in two steps and the second is never automatic:
+IIIa-078,IIIa,25,25.3,list,admission;feed,"A host category with no admissible component beneath it (general chat, a gateway) maps to substrate and is recorded, not scored."
+IIIa-079,IIIa,25,25.3,prose,mode;admission,"The second step is where a Verification session spends its time, and it is deliberately manual: a component is admitted by mode, and only the company can say what the work decides."
+IIIa-080,IIIa,25,25.4,prose,feed,"Reconciliation joins feed records to inventory lines on host and unit_ref, then evaluates each inventory line and each unmatched feed unit:"
+IIIa-081,IIIa,25,25.4,table,evidence_class;reconciliation;feed,Confirmed | Inventory line has matching feed records within the period | Spend and reach cells move STATED → REPORTED
+IIIa-082,IIIa,25,25.4,table,evidence_class;finding;reconciliation;feed,Divergent | Feed value differs from the STATED value beyond a tolerance | Cell REPORTED at the feed value; the STATED value kept in the record with its source
+IIIa-083,IIIa,25,25.4,table,evidence_class;reconciliation;grant;feed,Unreachable | Inventory line on a host with no connector or no grant | Cells stay STATED; the page says which host is unconnected
+IIIa-084,IIIa,25,25.4,prose,finding;reconciliation,"Tolerance for Divergent is set at ten percent for spend and twenty percent for reach, reflecting that people are better at recalling money than headcount."
+IIIa-085,IIIa,25,25.5,prose,evidence_class;artifact;feed,"A scorecard cell rendered from the record carries, behind it: the evidence class; the feed records that produced it; for a computed cell, the inputs and the formula; the retrieval time and staleness; and the inventory line it belongs to."
+IIIa-086,IIIa,26,,prose,artifact,This section is the source for the Vol I §2 Verification text and the Vol II §13 Verified Baseline rule.
+IIIa-087,IIIa,26,,prose,role,It is the last step of Phase 1 and the handoff point to the Company Captain in Phase 2\.
+IIIa-088,IIIa,26,26.1,table,evidence_class,Best cell class | STATED | REPORTED | REPORTED; OBSERVED from work records
+IIIa-089,IIIa,26,26.1,table,grant,"Security review | None | None: read-only, single-use, nothing retained | Company's normal process, once"
+IIIa-090,IIIa,26,26.2,list,evidence_class;artifact;feed;role,"After the scorecard renders, the Captain shows which cells are STATED and which sources could confirm them, and offers verification source by source: each host, the identity provider and, where the company has one, the secure service edge."
+IIIa-091,IIIa,26,26.2,list,grant;role,"For each source accepted, the Captain shows the exact scope to be read, the surfaces (24.1) and what will not be read (content, per-person detail on the page), and the user pastes a read-only key."
+IIIa-092,IIIa,26,26.2,list,grant,The key is held in session memory only.
+IIIa-093,IIIa,26,26.2,list,feed,"The connector reads the surfaces once, lands the records (§25), and reports the host's latency so the user knows the window the figures describe."
+IIIa-094,IIIa,26,26.2,list,grant,"The record keeps grant_id so the company can see what was read under which grant, and nothing can be read again."
+IIIa-095,IIIa,26,26.3,table,evidence_class,Work category mix by function | Partly: OpenAI and Google only | REPORTED where present
+IIIa-096,IIIa,26,26.3,table,evidence_class,"Correctness, evidence row | No; Anthropic accept rate is adjacent, not equivalent | REQUIRES MEASUREMENT"
+IIIa-097,IIIa,26,26.4,list,finding;reconciliation,The user decides every match and every divergent figure.
+IIIa-098,IIIa,26,26.4,list,finding,"Findings are named to the company, never to a person."
+IIIa-099,IIIa,26,26.4,list,placement,"Aggregates for the peer view accrue from the record, above threshold, as in Phase 1\."
+IIIa-100,IIIa,26,26.5,prose,grade;role;method_step,"Phase 2's proposition is the cadence: the same reconciliation every period, under a Company Captain the company owns, with a named reviewer whose sign-off earns the Monitored grade."
+IIIa-101,IIIa,27,,prose,grade;role;method_step,"Monitoring is the same reconciliation as Verification, run on a cadence, under grants the Company Captain holds, with a named reviewer whose sign-off earns the Monitored grade."
+IIIa-102,IIIa,27,,prose,cost;knowledge;role,"It is the whole of Outcomes Measurement's data operation; the Company Captain's other work (enablement, the Company Domain Environment) is in Vol I §17 and out of scope here."
+IIIa-103,IIIa,27,27.1,table,feed;role;method_step,"Refresh feeds | Daily where the host allows; weekly minimum | Company Captain, automated | New feed records with retrieved_at"
+IIIa-104,IIIa,27,27.1,table,finding;reconciliation;feed;role;method_step,Surface movement | Weekly | Company Captain | Cells whose value moved beyond tolerance; new undeclared units; seats gone idle; hosts gone silent
+IIIa-105,IIIa,27,27.1,prose,grade,"A period nobody signed renders at Estimated, whatever the feeds did."
+IIIa-106,IIIa,27,27.1,prose,artifact;role,"The reviewer is a role the company names in the subscription charter, typically finance or the CIO's office; the Company Captain prepares the page and signs it only where the charter delegates that, with the delegation printed on the artifact."
+IIIa-107,IIIa,27,27.2,list,,"Movement, the thing Phase 2 is for, exists only across periods."
+IIIa-108,IIIa,27,27.2,list,aifa;role,"The Company Captain prepares, flags and reminds; it also records when a review was late, which is itself a governance cell (criterion 10, Vol II §12.6)."
+IIIa-109,IIIa,27,27.3,prose,evidence_class,"Movement is reported as a delta on the cell with the prior value kept, never as a replacement."
+IIIa-110,IIIa,27,27.3,prose,reconciliation,"Four kinds of movement are always flagged regardless of tolerance, because each is a governance event rather than a number:"
+IIIa-111,IIIa,27,27.4,prose,,"It does not produce proficiency or behaviour, because nothing yet says what behaviour was intended; that reference is the Management Plan and the full architecture (Vol I §16)."
+IIIa-112,IIIa,27,27.4,prose,,A company can buy Measurement alone and see its estate move; it cannot get a behavioural claim out of it at any price.
+IIIa-113,IIIa,28,,prose,artifact,This section is the reference behind the business plan's Section 9 and the one-sentence promise on the free scorecard.
+IIIa-114,IIIa,28,,prose,evidence_class;grant,The framework's trust position is stated in one sentence at signup and kept everywhere after: your answers stay yours; anonymized aggregates build the benchmark you benefit from; nothing is read from your systems unless you hand a key to a screen that says exactly what it will read.
+IIIa-115,IIIa,28,28.1,table,grant,"Scope | Read-only analytics; content surfaces excluded at code level | Same, plus the Phase 2 surfaces the company elects (§29)"
+IIIa-116,IIIa,28,28.1,table,role,"Custodian | Nobody: session memory only | Company Captain, in the company's account"
+IIIa-117,IIIa,28,28.1,table,grant,Revocation | Automatic at session end | A screen the company sees; revocation deletes every record read under the grant
+IIIa-118,IIIa,28,28.1,table,,"Security review | None required; the promise on the free path | The company's own, once"
+IIIa-119,IIIa,28,28.1,table,grant,"What the framework retains | The record, in the company's account, with grant_id | The record over time, same custody"
+IIIa-120,IIIa,28,28.2,prose,,ABAF connectors implement only the first kind.
+IIIa-121,IIIa,28,28.2,prose,grant;feed,"The exclusion is in the connector's code and its declared scope, not in a policy document, so that a grant with broader permissions than needed still cannot be used to read content through the framework."
+IIIa-122,IIIa,28,28.3,prose,reliance;feed;role,"The company chooses in its charter between two ways of handling the user-level records beneath: a salted hash of the identity provider's subject, with the salt held in the company's own account, which allows reliance trajectory to be read by role over time; or aggregation at the connector with nothing stored per user, which forgoes that."
+IIIa-123,IIIa,28,28.3,prose,finding;artifact;role,"The scorecard, the findings and every export name roles; the Company Captain can show a function lead their own function's detail at the company's discretion; the framework's own staff and the Outcomes Captain see aggregates only."
+IIIa-124,IIIa,28,28.3,prose,placement,"The peer view accrues from aggregates above a threshold enforced in the database, so no company is identifiable by subtraction (Vol I §3)."
+IIIa-125,IIIa,28,28.4,prose,grant;feed,"Before any key is pasted, the same screen for every source: the host; the surfaces to be read, by name; the metrics they return (25.2); the surfaces that will not be read; the host's documented data delay; where the record will live; when the key will be released; and, in Phase 2, the revocation path."
+IIIa-126,IIIa,28,28.5,prose,,The record lives in the company's account in the region the account was opened in.
+IIIa-127,IIIa,28,28.5,prose,grant,"Company objects are held in a per-company store; the catalogue and taxonomy reference tables are held centrally, read-only and versioned per edition."
+IIIa-128,IIIa,28,28.5,prose,placement,"Deleting the account deletes the record and every export of it the framework holds; aggregates already contributed to the peer view above threshold are not reversed, and the signup sentence says so."
+IIIa-129,IIIa,29,,prose,feed,"Four other systems supply what hosts cannot: the money, the reach across the whole estate, and the artifacts that leave the host."
+IIIa-130,IIIa,29,,prose,,"All are Phase 2 surfaces except where noted, and each is connected only when the company elects it."
+IIIa-131,IIIa,29,,table,evidence_class,"Identity provider | Federated apps, app assignments, last sign-in per user | Reach across every SSO-connected AI app; apps with sign-ins and no invoice; seats assigned and never used | REPORTED | Verification (optional) and Phase 2"
+IIIa-132,IIIa,29,,table,evidence_class;artifact;feed,"Code hosting | PR labels the host applies, merge, revert and reopen events on labelled PRs | §5 engineering outcomes with provenance held where the artifact is: assisted PRs merged, reverted, reopened | OBSERVED | Phase 2"
+IIIa-133,IIIa,29,,table,evidence_class;feed,"Document workspace | Documents created or edited in a period, by function, with AI-feature events where the host records them | §4 artifacts created; downstream use where a document is later opened or linked | REPORTED; OBSERVED where the workspace holds the edit provenance | Phase 2"
+IIIa-134,IIIa,29,,prose,,Two rules govern these surfaces.
+IIIa-135,IIIa,29,,prose,evidence_class;feed,"The same feed earns only REPORTED for a lines-of-code count, because a count has no provenance chain."
+IIIa-136,IIIa,29,,prose,feed,"Work records feed the evidence row, never the outcome cell alone."
+IIIa-137,IIIa,29,,prose,role,The Company Captain lands it on the evidence row and the reviewer decides whether the linkage should be revised.
+IIIa-138,IIIa,30,,table,grant,Consent screen and key intake | Presents; holds key in session only | Presents; holds key under custody | — | — | Issues the grant; reviews once
+IIIa-139,IIIa,30,,table,grade,Grade | Estimated only | Prepares Monitored page; signs only under charter delegation | Confers Monitored by sign-off | — | —
+IIIa-140,IIIa,30,,prose,grade;artifact;grant;feed;role,Three constraints apply: the Company Captain prepares the Monitored page and signs it only under a charter delegation printed on the artifact; the Bench owns the host-to-work-category table and never the company's component mapping; and no role on the framework's side holds a company key outside the company's account.
+IIIa-141,IIIa,31,31.1,table,cost;feed;role,"Microsoft Copilot admin usage reports and Graph analytics | Not yet mapped; Microsoft is inventoried in Phase 1 from People and billing only; first candidate for a fourth host | Bench, landscape"
+IIIa-142,IIIa,31,31.1,table,aifa;reconciliation;role,"Tolerance defaults in 25.4 (10% spend, 20% reach) | Set; the Bench revises against the first ten verifications | Bench, fit assessment"
+IIIa-143,IIIa,31,31.1,table,role,"Catalogue rows beyond the three starting hosts | Verified per engagement, for the vendors that company runs; the sheet's Verified column records engagement and date | Company Captain, per engagement"
+IIIa-144,IIIa,31,31.3,list,,"Bronze, Silver and Gold are Ethikal subscription levels and belong to the business plan; this volume uses module and phase names only."
+IIIa-145,IIIa,31,31.3,list,feed;role,The work-category taxonomy is the framework's own; the Bench maintains host maps per edition.
+IIIa-146,IIIa,"Appendix · Vendor connector catalogue: method, data model an",,prose,,This appendix carries the prose that explains them.
+IIIa-147,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.1 How the catalogue was built,prose,,"Okta's scope excludes hyperscaler model delivery, systems-of-record AI and data-platform AI, so those categories were added from Ramp's vendor category pages and engagement experience, because a company's AI spend sits in them whether or not they appear on an app-growth chart."
+IIIa-148,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.1 How the catalogue was built,prose,portfolio,"A vendor is listed when it appears on either index or its category page, or when it is a system-of-record, data, financial or portfolio platform whose AI features are separately licensed and therefore separately paid for."
+IIIa-149,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.2 Collection modes,table,cost;grant;method_step,"Agentic | A read-only admin or usage API returns seats, active users, usage or spend on demand | Reads it on cadence under a grant (§27) | Issues the grant once"
+IIIa-150,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.2 Collection modes,table,,"Assisted | Measures exist, but only as an admin dashboard, a CSV export, or a proxy the framework can read elsewhere (SSO sign-ins, SCIM seat counts, billing lines) | Guides the export, parses it, or reads the proxy | Triggers the export each period, or approves the proxy"
+IIIa-151,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.2 Collection modes,table,,"Manual | No admin telemetry the company can obtain; spend from invoices, reach from people | Records what is supplied at its class | Supplies seat count, users and use from knowledge"
+IIIa-152,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.2 Collection modes,prose,mode;feed,"The mode is a property of the vendor's most informative surface at the edition date, not of the vendor forever; vendors move up as they ship admin APIs."
+IIIa-153,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.2 Collection modes,prose,,"Only the three starting hosts were checked against vendor documentation in this edition; every other row is verified per engagement, for the vendors that company runs."
+IIIa-154,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.3 The connector data model,prose,feed,"The join that Verification and Monitoring run is: inventory line → vendor → surfaces available at the company's plan tier → measures → feed records, then reconciliation as in 25.4."
+IIIa-155,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.3 The connector data model,prose,evidence_class;reconciliation;feed,"A vendor whose only surface is a billing proxy is a Manual row; its inventory line can still be confirmed on spend by the billing feed, and its reach stays STATED."
+IIIa-156,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.3 The connector data model,list,feed,"Invoice and card lines give spend_committed and spend_usage per vendor, and are the only surface for shadow spend."
+IIIa-157,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,feed,"Six in ten vendors in the catalogue can be read by a connector without a person in the loop; nearly all the rest can be read with one export or through the identity, billing and SSE proxies; three are manual and one is excluded as content-adjacent."
+IIIa-158,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,table,,Group | Vendors | Agentic | Assisted | Manual | Excluded
+IIIa-159,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,,"The 53 Assisted vendors are Assisted only for use: their seats appear in SCIM and sign-ins, their spend in invoices."
+IIIa-160,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,,"A Verification session that reads hosts plus the identity provider confirms existence, spend and reach for nearly every row; it is the AI-specific use measure that stays behind a dashboard for the Assisted vendors."
+IIIa-161,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,portfolio,"All the starting hosts, every hyperscaler model service, every gateway, the leading coding assistants, the financial systems of record and the portfolio systems."
+IIIa-162,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,role,"The subscription charter names who exports what; the Captain records a missed export as a stale cell, not a zero."
+IIIa-163,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,grade,Support and outbound agents (rows 75 to 80\) are the fastest route to a Measured cell.
+IIIa-164,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,artifact;cost;feed,"They charge per resolution or conversation, so usage, outcome and billing are one feed, and the baseline is the pre-agent resolution rate the support system already holds."
+IIIa-165,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,feed,Evaluation platforms (rows 92 to 94\) are the evidence row's connector.
+IIIa-166,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,consequence;evidence_floor,"A company without one, running C3 or C4 components it built, is below its evidence floor by construction."
+IIIa-167,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,artifact;portfolio,Financial and portfolio systems (rows 101 to 128\) carry the identifiers that tie the scorecard to finance.
+IIIa-168,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,artifact;portfolio,"The inventory line should carry the GL and PPM ids from these systems, so that the scorecard's investment lines, the portfolio record and the general ledger reconcile to one another rather than to three different lists."
+IIIa-169,IIIa,"Appendix · Vendor connector catalogue: method, data model an",A.4 Roll-up,prose,,Secure service edge vendors (row 139\) are the most complete shadow-AI source.
+IIIa-170,IIIa,Document control,Change log,table,grant;feed,"26 Sep 2026 | First draft: integration model, discovery, host connectors for OpenAI, Anthropic and Google, normalized record, Verification, Monitoring, consent and custody, supporting systems, roles, open items"
+IIIc-001,IIIc,Consolidated object model,"One model for Measurement, Monitoring and Management across ",prose,feed,The feed record of §25.1 and the connector entities of R.2 describe how a value gets in.
+IIIc-002,IIIc,"M.1 Six domains, three loops",,table,grade;artifact;feed;role,"Evidence | Feed records, measures, cells, artifacts with grade and baseline, provenance | Measurement, Monitoring | Management, Bench"
+IIIc-003,IIIc,"M.1 Six domains, three loops",,prose,feed,It never writes Evidence: a plan cannot change what a feed said.
+IIIc-004,IIIc,"M.1 Six domains, three loops",,prose,,That last sentence is the rule that protects the integrity of the model.
+IIIc-005,IIIc,"M.1 Six domains, three loops",,prose,,Evidence objects are append-only; Architecture objects are versioned; Management objects reference the versions they were decided against.
+IIIc-006,IIIc,M.2 Domain diagram,,prose,,Management's only path back into the model is a new Architecture version; it never writes Evidence.
+IIIc-007,IIIc,M.2 Domain diagram,,prose,grant;role,"The diagram omits people deliberately: a Role object in Custody carries a hashed reference, and every object that names an owner or reviewer references a Role, never a person."
+IIIc-008,IIIc,M.3 Object catalogue,,prose,grant,"Key is the natural key; every object also has a system id and, where marked versioned, a version number."
+IIIc-009,IIIc,M.3 Object catalogue,Evidence,table,feed,Feed record | as §25.1 | as §25.1 | Connector | Append-only
+IIIc-010,IIIc,M.3 Object catalogue,Evidence,table,evidence_class;feed;role;portfolio,"Cell | artifact_id \+ cell_ref | value, unit, evidence class, source: feed record ids or STATED statement (role, date) or formula over cells, retrieved_at, staleness, investment line or dc_id | Measurement; Monitoring | Append-only per period"
+IIIc-011,IIIc,M.3 Object catalogue,Evidence,table,artifact,"Baseline | artifact_id | Not a standalone object. A reference each Artifact carries to its own first version (Vol II §13.4: baseline is a property, and there is no single object called the baseline). A re-baseline moves the reference to a later version and records the Review that authorised it | Measurement; Re-baseline | Immutable"
+IIIc-012,IIIc,M.3 Object catalogue,Evidence,table,grant;feed;role,"Provenance | cell_ref | the chain: feed record → surface → grant, or role → date, or inputs → formula | System | Immutable"
+IIIc-013,IIIc,M.3 Object catalogue,Measurement,table,evidence_class;finding;reconciliation;feed;role,"Reconciliation | period_id \+ line_id (or unmatched unit) | outcome (confirmed, undeclared, idle, divergent, unreachable), feed values, STATED values, user decision and role | Verification; Monitoring | Append-only"
+IIIc-014,IIIc,M.3 Object catalogue,Measurement,table,mode;evidence_floor;finding;reconciliation,"Finding | company_id \+ finding_id | kind (unnamed gap, ownerless, undetermined, empty evidence, undeclared, idle, divergent, floor breach, ungoverned change), object it is against, period raised, status (open, accepted, resolved), resolution reference | Measurement; Monitoring; Management resolves | State"
+IIIc-015,IIIc,M.3 Object catalogue,Measurement,table,reconciliation,"Delta | period_id \+ cell_ref | prior value, current value, tolerance, flagged | Monitoring | Append-only"
+IIIc-016,IIIc,M.3 Object catalogue,Measurement,table,reconciliation;feed;role,"Tolerance | metric (+ company_id override) | percent or absolute, set at edition or by charter | Bench; charter | Per edition"
+IIIc-017,IIIc,M.3 Object catalogue,Management,table,aifa;artifact;role,"AIFA score | artifact_id \+ dc_id | ten criterion scores, complexity band, evidence per criterion | Measurement (quick look); Bench (full) | Per artifact"
+IIIc-018,IIIc,M.3 Object catalogue,Management,table,placement;artifact;role,"Staging | artifact_id | maturity stage, thresholds met and missed | Bench | Per artifact"
+IIIc-019,IIIc,M.4 Identifier rules,,table,finding;reconciliation;feed;portfolio,"Finance (GL, cost centre, vendor master) | Investment line external_ids.gl | The investment line carries the company's own vendor-master id and cost centre, taken from the billing feed (R.8, R.10). Spend reconciliation joins on it; a line with no GL id is by definition undeclared to finance and is a finding"
+IIIc-020,IIIc,M.4 Identifier rules,,table,placement;portfolio,"Portfolio system (R.9) | Investment line external_ids.ppm; Portfolio ppm_id | Where the company keeps AI initiatives in an SPM or PPM tool, the framework adopts that id and never mints a competing one; the Portfolio object is a view over the PPM record with fit and stage added"
+IIIc-021,IIIc,M.4 Identifier rules,,table,grant;feed,"Hosts and vendors | Feed record unit_ref; Component map | Host identifiers (group, org unit, project, key) are stored as the host gives them, hashed where they identify a person. Joins to components go through the Component map, never through string matching on names"
+IIIc-022,IIIc,M.4 Identifier rules,,table,evidence_class;linkage;feed;role,"People | Role hashed_person_ref | No object stores a person. Depending on the charter's person-handling choice, a Role carries a salted hash of the identity provider's subject, or nothing per user is stored and feeds are aggregated at the connector. Benefits owner, reviewer, custodian and STATED-by all reference Roles. Reversing a hash is possible only inside the company's account, by the company"
+IIIc-023,IIIc,M.4 Identifier rules,,list,mode;reliance,"When Management changes a component's mode or platform, the dc_id stays and the version increments, so that a reliance trajectory can be read across versions."
+IIIc-024,IIIc,M.4 Identifier rules,,list,,"A component is retired, never deleted."
+IIIc-025,IIIc,M.5 Lifecycle by loop,,prose,,"""Never"" entries are enforced, not advisory."
+IIIc-026,IIIc,M.5 Lifecycle by loop,,table,grant,Grant | Never | Create single-use; revoke at session end | Create standing; rotate; revoke | —
+IIIc-027,IIIc,M.5 Lifecycle by loop,,table,feed;method_step,Feed record | Never | Create (one session) | Create on cadence | Never
+IIIc-028,IIIc,M.5 Lifecycle by loop,,table,evidence_class,"Cell, Provenance | Create (STATED cells) | Create (REPORTED cells, computed cells) | Create per period | Never"
+IIIc-029,IIIc,M.5 Lifecycle by loop,,table,artifact,Baseline | Create | Replace with Verified (both kept) | Re-baseline only via Review | —
+IIIc-030,IIIc,M.5 Lifecycle by loop,,table,,"Reconciliation, Delta | — | Create | Create per period | Never"
+IIIc-031,IIIc,M.5 Lifecycle by loop,,table,evidence_floor;finding;reconciliation,"Finding | Create (four discovery findings) | Create (undeclared, idle, divergent) | Create (movement, ungoverned change, floor breach) | Resolve; never create"
+IIIc-032,IIIc,M.5 Lifecycle by loop,,prose,,"Management never touches Evidence or Measurement objects, so a plan cannot make a number look better; it can only change what the next period measures against."
+IIIc-033,IIIc,M.6 Open decisions and propagation,Decisions,list,grant,"Decided 26 Sep: per-company store; reference tables central, read-only, versioned per edition, with each company record referencing the edition it was produced under."
+IIIc-034,IIIc,M.6 Open decisions and propagation,Decisions,list,feed,"Reading a business outcome's current value from the ERP or PPM (R.8, R.9) is the first time a feed lands on an Architecture object rather than an Evidence object."
+IIIc-035,IIIc,M.6 Open decisions and propagation,Decisions,list,,Confirm the value is stored as a Cell with provenance and the Outcome only references it.
+IIIc-036,IIIc,M.6 Open decisions and propagation,Decisions,list,,Components and investment lines are retired; is anything ever deleted other than by account deletion?
+IIIc-037,IIIc,M.6 Open decisions and propagation,Propagation,list,feed,[ ] §25.1: add cell_ref and line_id or dc_id to the feed record so a record knows where it landed
+IIIc-038,IIIc,M.6 Open decisions and propagation,Propagation,list,mode;role,"[x] Vol II §11.1: note that the attribute set is the Decision component object and that mode, division of labour and owner are versioned (done in the v0.8.1 draft)"
+IIIc-039,IIIc,M.6 Open decisions and propagation,Propagation,list,grade;artifact,"[x] Vol II §13: grade is set only by a Review; baseline is a reference, not a copy (done in the v0.8.1 draft)"
+IIIc-040,IIIc,M.6 Open decisions and propagation,Propagation,list,artifact;linkage;role;portfolio,"[ ] Vol I §16: Portfolio and Management plan objects as the Bench's working record; targets carry baseline, counterfactual and period as fields, which makes the outcome-linkage qualification of §11 a validation rule"
+IIIc-041,IIIc,M.7 From objects to ROI per investment,,prose,evidence_class;cost;portfolio,"ROI per investment line is a computed cell over two chains that meet at the Investment line, and it inherits the weakest evidence class of its inputs."
+IIIc-042,IIIc,M.7 From objects to ROI per investment,,prose,evidence_class;feed,The model never estimates a value; every input was either stated by the company or reported by a feed.
+IIIc-043,IIIc,M.7 From objects to ROI per investment,The cost chain: cost of service (Vol I §4.5),table,evidence_class;cost;feed,"Usage | Feed records spend_usage, tokens, allocated to the line through the Component map | Host and gateway feeds (R.3, R.10) | REPORTED"
+IIIc-044,IIIc,M.7 From objects to ROI per investment,The cost chain: cost of service (Vol I §4.5),table,evidence_class;cost;portfolio,Build and integration | Investment line external_ids.ppm → PPM cost record | Portfolio system (R.9) or GL cost centre | REPORTED where the PPM holds it; else STATED
+IIIc-045,IIIc,M.7 From objects to ROI per investment,The cost chain: cost of service (Vol I §4.5),table,evidence_class;consequence;finding;cost,"Expected cost of error | Computed: consequence class × observed error rate × exposure, where exposure is volume × cost per wrong output | Class from the Decision component; error rate from its evidence row (R.7 rows 92–94, R.4 revert and reopen rates); volume from feeds | Computed; REQUIRES MEASUREMENT when no error rate exists, and that absence is a finding"
+IIIc-046,IIIc,M.7 From objects to ROI per investment,The cost chain: cost of service (Vol I §4.5),prose,cost,"Cost of service for a period \= the sum of the five lines, rendered as computed from its inputs with each input's class visible."
+IIIc-047,IIIc,M.7 From objects to ROI per investment,The cost chain: cost of service (Vol I §4.5),prose,evidence_class,A line with no source renders as REQUIRES MEASUREMENT and the total is marked incomplete rather than understated.
+IIIc-048,IIIc,M.7 From objects to ROI per investment,The value chain: value delivered (Vol I §4.3),list,portfolio,The Investment line carries its Decision components.
+IIIc-049,IIIc,M.7 From objects to ROI per investment,The value chain: value delivered (Vol I §4.3),list,artifact;linkage,"A linkage qualifies only where it names a baseline, a counterfactual or a period; an unqualified linkage contributes nothing."
+IIIc-050,IIIc,M.7 From objects to ROI per investment,The value chain: value delivered (Vol I §4.3),list,evidence_class;linkage;role,"Unit value (a fully loaded hour, a resolution, a day of cycle time) is STATED by the benefits owner, recorded with role and date, and revisable only by a new Target version."
+IIIc-051,IIIc,M.7 From objects to ROI per investment,The value chain: value delivered (Vol I §4.3),prose,evidence_class;linkage,"Where a component runs alongside the old process and displaces nothing yet, the counterfactual is the value and is STATED as such; the framework prefers a STATED counterfactual it can name over a REPORTED number that measures nothing."
+IIIc-052,IIIc,M.7 From objects to ROI per investment,The ROI cell,prose,,Three rules govern the cell:
+IIIc-053,IIIc,M.7 From objects to ROI per investment,The ROI cell,list,evidence_class;linkage,A cell computed from a REPORTED cost and a STATED unit value is computed-from-STATED.
+IIIc-054,IIIc,M.7 From objects to ROI per investment,The ROI cell,list,cost;portfolio,"The Portfolio row carries the class, and a row whose value side is empty shows no ROI at all rather than a zero."
+IIIc-055,IIIc,M.8 Entity relationship diagram,,prose,,Attributes are limited to primary and foreign keys and the fields that decide a rule; the full field lists are in M.3.
+IIIc-056,IIIc,M.8 Entity relationship diagram,,prose,feed;portfolio,"Three join entities are added that the catalogue implied: LINE_COMPONENT (an investment line to its decision components, carrying the allocation rule of M.7), CELL_SOURCE (a cell to the feed records that produced it, the provenance chain of §25.5) and COMPONENT_KNOWLEDGE (a component to the knowledge sources it depends on)."
+IIIc-057,IIIc,M.8 Entity relationship diagram,Relationships,table,feed,"Surface | 1 → many | Measure, Feed record | returns, produces"
+IIIc-058,IIIc,M.8 Entity relationship diagram,Relationships,table,grant;feed,Grant | 1 → many | Feed record | read under
+IIIc-059,IIIc,M.8 Entity relationship diagram,Relationships,table,feed,Feed record | many → 0..1 | Component map | mapped by
+IIIc-060,IIIc,M.8 Entity relationship diagram,Relationships,table,feed,Feed record | many ↔ many (via Cell source) | Cell | lands in
+IIIc-061,IIIc,M.8 Entity relationship diagram,Relationships,table,reconciliation;feed,"Measure, Tolerance | many → 1 | Metric vocabulary | uses"
+IIIc-062,IIIc,M.8 Entity relationship diagram,Keys by entity,prose,admission;reconciliation;portfolio,"Entities not listed (PLATFORM, KNOWLEDGE_SOURCE, SUBSTRATE, COMPONENT_KNOWLEDGE, CELL_SOURCE, DELTA, TOLERANCE, PORTFOLIO, MANAGEMENT_PLAN, AIFA_SCORE, STAGING, WORK_CATEGORY, HOST_CATEGORY_MAP, METRIC_VOCABULARY) take their fields from M.3."
+IIIc-063,IIIc,M.8 Entity relationship diagram,Keys by entity,prose,reconciliation;grant;feed,"Reference entities (VENDOR, SURFACE, MEASURE, METRIC_VOCABULARY, WORK_CATEGORY, HOST_CATEGORY_MAP, TOLERANCE) live in the central read-only store; every other entity lives in the company's store."
+IIId-001,IIId,Portfolio ROI report,Worked example: what the Management portfolio review page sh,prose,role,This is the page the reviewer signs each period and the CFO reads.
+IIId-002,IIId,Portfolio ROI report,Worked example: what the Management portfolio review page sh,prose,finding;cost,"Measurement Phase 2 alone fills the cost-of-service, use and findings columns; the targets, value delivered, ROI and decision columns exist only once Management has written targets against the company's outcomes."
+IIId-003,IIId,Portfolio ROI report,Worked example: what the Management portfolio review page sh,prose,,"Every figure is illustrative; the shape, the columns and the rules are the deliverable."
+IIId-004,IIId,Header,,table,cost,Investment lines | 8 in scope · 3 carry an ROI · 2 justified by other methods · 3 have no qualifying value side
+IIId-005,IIId,Header,The four numbers,table,cost;portfolio,"Cost of service, all lines | Value delivered, qualifying lines | Portfolio ROI, ROI-method lines only | Cost of service with no value side"
+IIId-006,IIId,Header,The four numbers,table,evidence_class,"\$3.20M · computed from REPORTED, 1 line incomplete | \$3.15M · computed from STATED unit values | 147% on \$1.27M of cost | \$1.93M · 60% of the total"
+IIId-007,IIId,Header,The four numbers,prose,,The fourth number is the most important on the page and is kept separate from the third.
+IIId-008,IIId,Header,The four numbers,prose,artifact;cost;linkage;portfolio,"Portfolio ROI is calculated only over lines whose value side qualifies (a baseline, a counterfactual or a period) and whose justification method is ROI."
+IIId-009,IIId,Portfolio table,,prose,cost,Method is from Vol I §4.4 and decides whether a row shows ROI.
+IIId-010,IIId,Portfolio table,,prose,evidence_class,"Class is the evidence class of the row, taken from its weakest input."
+IIId-011,IIId,Portfolio table,,table,evidence_class;cost;linkage,"1 | Claims triage agent (severity, duplicate detection) | Agents | Payback \+ risk | 555 | 1,420 | 156% | Computed from REPORTED; unit value STATED | Head of Claims | Grow"
+IIId-012,IIId,Portfolio table,,table,evidence_class;cost;linkage,2 | Support resolution agent (Fin) | Agents | ROI with outcome metrics | 277 | 827 | 199% | Computed from REPORTED; unit value STATED | VP Customer Service | Grow
+IIId-013,IIId,Portfolio table,,table,evidence_class;cost;linkage,"3 | Engineering assistants (Claude Code, Copilot) | Vendor tools | Cost of service vs delivered use and outcome | 440 | 900 | 105% | Computed from STATED counterfactual | VP Engineering | Keep"
+IIId-014,IIId,Portfolio table,,table,evidence_class;consequence;evidence_floor;finding;cost,"8 | Coverage summarisation (adjuster-authored) | Agents | Payback \+ risk | 90 \+ incomplete | — | — | REQUIRES MEASUREMENT: C3, no error rate | Head of Claims | Fix: evidence floor breach"
+IIId-015,IIId,Portfolio table,,prose,cost,"Rows 4, 7 and 8 show no ROI because the value side is empty or the cost side is incomplete, and each carries a decision that closes the gap."
+IIId-016,IIId,Cost of service by line,,prose,evidence_class,A dash is a line that does not apply; RM is REQUIRES MEASUREMENT and makes the row's total incomplete.
+IIId-017,IIId,Cost of service by line,,prose,cost;feed,"Where each column came from at Ashford this period: licence and seat from the accounts-payable feed (R.8) reconciled to seat counts from the identity provider; usage from the OpenAI, Anthropic and gateway feeds allocated through the Component map; build and integration from the PPM cost records on the two investments that have one (R.9); enablement from the People-class line, allocated by reach; expected cost of error from the evaluation platform's scored error rate on rows 1 and 2, the repository revert rate on row 3, and absent on rows 7 and 8\."
+IIId-018,IIId,Cost of service by line,,prose,cost,The enablement column is the one most companies cannot produce and the one that most changes the picture: at \$392k it is larger than build and integration and is the second-largest line after seats.
+IIId-019,IIId,Tap-back on row 2: the support resolution agent,,prose,,"Every input names its object, class and source, so the number can be disputed at the input that produced it rather than as a whole."
+IIId-020,IIId,Tap-back on row 2: the support resolution agent,,table,evidence_class;feed,"Automated resolutions, period | 88,100 | Feed record → Cell | REPORTED | Intercom Fin resolutions report (catalogue row 76), retrieved 1 Oct, host delay 1 day"
+IIId-021,IIId,Tap-back on row 2: the support resolution agent,,table,evidence_class,"Value delivered | \$827k | Cell, computed | Computed from REPORTED and STATED | 88,100 × \$9.40"
+IIId-022,IIId,Tap-back on row 2: the support resolution agent,,table,evidence_class;cost,Build and integration | \$35k | PPM cost record | REPORTED | PPM id ASH-2211
+IIId-023,IIId,Tap-back on row 2: the support resolution agent,,table,evidence_class;consequence;cost,"Expected cost of error | \$22k | Computed | Computed from OBSERVED | C2 × 3.4% × 88,100 × \$7.30 rework"
+IIId-024,IIId,Tap-back on row 2: the support resolution agent,,table,evidence_class;cost,Cost of service | \$277k | Computed | Computed from REPORTED and STATED | Sum of five lines
+IIId-025,IIId,Tap-back on row 2: the support resolution agent,,table,evidence_class;cost,ROI | 199% | Computed | Computed from REPORTED and STATED | (827 − 277\) ÷ 277
+IIId-026,IIId,Tap-back on row 2: the support resolution agent,,prose,evidence_class,The weakest inputs are the two STATED values from January.
+IIId-027,IIId,Tap-back on row 2: the support resolution agent,,prose,evidence_class;grade;cost;linkage,"If the CFO wants the ROI to be computed-from-REPORTED, the path is to replace the \$9.40 with a measured handling cost from the workforce system, which is a Target revision, not an edit to this row."
+IIId-028,IIId,"Findings, decisions and what the report does not do",Findings raised this period,table,consequence;evidence_floor;finding,"C3 component with no evaluation | Row 8 | Evidence floor breach | Open: evaluation harness scoped, PPM ASH-2240"
+IIId-029,IIId,"Findings, decisions and what the report does not do",Findings raised this period,table,finding;role,Copilot seats up 300 with no procurement record | Row 4 | Ungoverned change | Open: reviewer query to IT
+IIId-030,IIId,"Findings, decisions and what the report does not do",Findings raised this period,table,finding;reconciliation;cost,"Claude Code usage up 3.1× on same seat count | Row 3 | Divergent, beyond tolerance | Accepted: usage line re-forecast"
+IIId-031,IIId,"Findings, decisions and what the report does not do",Renewal decisions the row supports,list,role;method_step,"Row 4 is not retired, and not renewed at the same seat count either: 2,400 seats, 38% daily use, no owner."
+IIId-032,IIId,"Findings, decisions and what the report does not do",What the report does not do,list,finding;cost,Sixty percent unlinked is the finding; a 47% blended ROI would hide it.
+IIId-033,IIId,"Findings, decisions and what the report does not do",What the report does not do,list,evidence_class,A number nobody at Ashford stated is not a STATED cell; it is a vendor's claim.
+IIId-034,IIId,"Findings, decisions and what the report does not do",What the report does not do,list,cost,"It does not show an ROI for rows 5 and 6, because their justification method does not produce one, and forcing every line through payback is the failure Vol I §4.4 names."
+IIId-035,IIId,"Findings, decisions and what the report does not do",What the report does not do,list,consequence,"It stays a line, and the two RM cells stay open, because a C3 component with an unmeasured error rate has an unbounded line there."
+IIIb-001,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed;grant,"row 1: OpenAI · ChatGPT Enterprise, Codex | mode=Agentic | feeds=§1 §2 §3 §5 | connection=Admin API key, analytics scope; Admin Console"
+IIIb-002,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,row 2: OpenAI · API platform | mode=Agentic | feeds=§1; cost per component | connection=Admin API usage and cost endpoints
+IIIb-003,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed;grant,"row 3: Anthropic · Claude Enterprise, Claude Code, Cowork | mode=Agentic | feeds=§1 §2 §3 §5 | connection=Analytics API key (read:analytics), Primary Owner only; dashboard CSV"
+IIIb-004,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed;grant,row 4: Anthropic · API platform | mode=Agentic | feeds=§1; cost per component | connection=Console Admin API key
+IIIb-005,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,row 5: Google · Gemini in Workspace | mode=Agentic | feeds=§1 §2 §3 | connection=Admin console reports (CSV); Reports API service account
+IIIb-006,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,"row 6: Google · Vertex AI, Gemini Enterprise | mode=Agentic (billing); Assisted (Gemini Enterprise) | feeds=§1 | connection=Cloud Billing export; IAM viewer"
+IIIb-007,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,row 7: Microsoft · 365 Copilot | mode=Agentic | feeds=§1 §2 §3 | connection=Microsoft Graph reports API; Admin Center usage reports
+IIIb-008,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,row 8: Microsoft · Azure OpenAI / Foundry | mode=Agentic | feeds=§1; cost per component | connection=Azure Cost Management API; Monitor metrics
+IIIb-009,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,row 9: Amazon · Bedrock | mode=Agentic | feeds=§1; cost per component | connection=CloudWatch metrics; Cost Explorer API
+IIIb-010,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,"row 10: xAI · Grok for Business, API | mode=Assisted (Business); Agentic (API) | feeds=§1 §2 | connection=Console; API usage endpoint"
+IIIb-011,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,row 11: Perplexity · Enterprise Pro | mode=Assisted | feeds=§1 §2 | connection=Admin dashboard
+IIIb-012,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,"row 12: Mistral · La Plateforme, Le Chat Enterprise | mode=Agentic (API); Assisted (Le Chat) | feeds=§1 §2 | connection=Usage API; console"
+IIIb-013,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,row 13: Cohere · platform | mode=Agentic | feeds=§1 | connection=Usage API
+IIIb-014,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,row 14: Together AI · serving | mode=Agentic | feeds=§1; substrate | connection=Usage API
+IIIb-015,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,row 15: Fireworks AI · serving | mode=Agentic | feeds=§1; substrate | connection=Usage API
+IIIb-016,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,row 16: Groq · cloud | mode=Assisted | feeds=§1; substrate | connection=Console; usage export
+IIIb-017,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,row 17: OpenRouter · gateway | mode=Agentic | feeds=§1; cost per component; substrate | connection=Usage API
+IIIb-018,IIIb,catalogue,Foundation platforms and assistants,csv-row,feed,"row 18: Hugging Face · Enterprise Hub, Inference | mode=Assisted | feeds=§1 §2 | connection=Org admin API; billing"
+IIIb-019,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 19: GitHub · Copilot Business / Enterprise | mode=Agentic | feeds=§1 §2 §5 | connection=Copilot metrics API (org and enterprise); usage report
+IIIb-020,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,"row 20: Cursor · Teams / Enterprise | mode=Agentic | feeds=§1 §2 §5 | connection=Admin API (usage, spend)"
+IIIb-021,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 21: Windsurf (Cognition) · Teams / Enterprise | mode=Agentic | feeds=§1 §2 §5 | connection=Admin analytics API
+IIIb-022,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 22: Cognition · Devin | mode=Assisted | feeds=§1 §5 | connection=Console; usage export
+IIIb-023,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 23: Replit · Teams / Enterprise | mode=Assisted | feeds=§1 §2 | connection=Admin dashboard
+IIIb-024,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 24: Lovable · Teams / Business | mode=Assisted | feeds=§1 §2 | connection=Workspace dashboard
+IIIb-025,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 25: Vercel · v0 | mode=Assisted | feeds=§1 §2 | connection=Team usage dashboard
+IIIb-026,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 26: StackBlitz · Bolt | mode=Assisted | feeds=§1 §2 | connection=Team dashboard
+IIIb-027,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,"row 27: JetBrains · AI Assistant, Junie | mode=Assisted | feeds=§1 §2 | connection=JetBrains Account org admin; licence server"
+IIIb-028,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 28: Tabnine · Enterprise | mode=Agentic | feeds=§1 §2 §5 | connection=Admin console; reporting API
+IIIb-029,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,"row 29: Sourcegraph · Cody, Amp | mode=Assisted | feeds=§1 §2 | connection=Admin analytics; usage export"
+IIIb-030,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 30: CodeRabbit · Pro / Enterprise | mode=Assisted | feeds=§1 §5 | connection=Org dashboard; reports
+IIIb-031,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 31: Graphite · AI review | mode=Assisted | feeds=§5 | connection=Insights dashboard
+IIIb-032,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 32: GitLab · Duo Enterprise | mode=Agentic | feeds=§1 §2 §5 | connection=GraphQL API (AI usage); admin reports
+IIIb-033,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 33: Amazon · Q Developer | mode=Agentic | feeds=§1 §2 §5 | connection=Q Developer usage dashboard; CloudWatch
+IIIb-034,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,"row 34: Google · Gemini Code Assist, Antigravity | mode=Assisted | feeds=§1 §2 | connection=Cloud console; Cloud Logging"
+IIIb-035,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 35: Warp · Teams | mode=Assisted | feeds=§1 §2 | connection=Team settings
+IIIb-036,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,"row 36: Atlassian · Rovo, Jira and Confluence AI | mode=Assisted | feeds=§1 §2 §3 | connection=Atlassian admin analytics; organisation insights"
+IIIb-037,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 37: ServiceNow · Now Assist | mode=Agentic | feeds=§1 §2 §5 | connection=Now Assist analytics; Performance Analytics API
+IIIb-038,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,"row 38: Datadog · Bits AI, LLM Observability | mode=Agentic | feeds=§1 §2; cost per component | connection=Datadog API"
+IIIb-039,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,row 39: Sentry · Seer | mode=Agentic | feeds=§5 | connection=Org stats; API
+IIIb-040,IIIb,catalogue,"Coding, engineering and IT",csv-row,feed,"row 40: Snyk · Agent Fix, DeepCode AI | mode=Agentic | feeds=§5 | connection=Reporting API"
+IIIb-041,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 41: Notion · AI (Business / Enterprise) | mode=Assisted | feeds=§1 §2 §3 | connection=Workspace analytics; SCIM
+IIIb-042,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 42: Slack · AI | mode=Assisted | feeds=§1 §2 | connection=Analytics dashboard export; admin API for membership
+IIIb-043,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 43: Zoom · AI Companion | mode=Agentic | feeds=§1 §2 | connection=Admin dashboard; Zoom API usage reports
+IIIb-044,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 44: Microsoft · Teams Copilot | mode=Agentic | feeds=§2 | connection=Graph reports
+IIIb-045,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 45: Otter.ai · Business / Enterprise | mode=Assisted | feeds=§1 §2 | connection=Admin dashboard
+IIIb-046,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 46: Fireflies.ai · Enterprise | mode=Agentic | feeds=§1 §2 | connection=Admin dashboard; API
+IIIb-047,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 47: Fathom · Team / Enterprise | mode=Assisted | feeds=§1 §2 | connection=Admin
+IIIb-048,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 48: Granola · Business / Enterprise | mode=Assisted | feeds=§1 §2 | connection=Admin
+IIIb-049,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 49: Read AI · Enterprise | mode=Assisted | feeds=§1 §2 | connection=Admin dashboard
+IIIb-050,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 50: Grammarly · Business / Enterprise (incl. Coda) | mode=Assisted | feeds=§1 §2 §4 | connection=Admin analytics; SCIM
+IIIb-051,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 51: Writer · Enterprise | mode=Agentic | feeds=§1 §2 §4 | connection=Admin analytics; API
+IIIb-052,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 52: Jasper · Business | mode=Assisted | feeds=§1 §2 §4 | connection=Admin analytics
+IIIb-053,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 53: Copy.ai · Enterprise | mode=Assisted | feeds=§1 §2 | connection=Admin
+IIIb-054,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 54: Canva · Teams / Enterprise | mode=Assisted | feeds=§1 §2 §4 | connection=Admin insights; Canva API (enterprise)
+IIIb-055,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,"row 55: Adobe · Creative Cloud, Firefly, Acrobat AI | mode=Agentic | feeds=§1 §2 §4 | connection=Admin Console reports; User Management API"
+IIIb-056,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,"row 56: Figma · AI, Make | mode=Assisted | feeds=§1 §2 §4 | connection=Admin analytics; SCIM"
+IIIb-057,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 57: Gamma · Team / Enterprise | mode=Assisted | feeds=§1 §2 §4 | connection=Admin
+IIIb-058,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 58: Midjourney · Company / Pro | mode=Manual (spend); Assisted (hours) | feeds=§1 §2 | connection=Account page
+IIIb-059,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 59: Runway · Enterprise | mode=Assisted | feeds=§1 §2 §4 | connection=Admin dashboard; API
+IIIb-060,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 60: ElevenLabs · Business / Enterprise | mode=Agentic | feeds=§1 §2 §4 | connection=Usage API; workspace analytics
+IIIb-061,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 61: Descript · Business | mode=Assisted | feeds=§1 §2 | connection=Admin
+IIIb-062,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 62: Synthesia · Enterprise | mode=Assisted | feeds=§1 §4 | connection=Admin analytics
+IIIb-063,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 63: HeyGen · Enterprise | mode=Assisted | feeds=§1 §4 | connection=Admin
+IIIb-064,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 64: Loom · AI | mode=Assisted | feeds=§1 §2 | connection=Admin insights
+IIIb-065,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 65: Miro · AI | mode=Assisted | feeds=§1 §2 | connection=Admin insights; SCIM
+IIIb-066,IIIb,catalogue,"Productivity, meetings, writing, design and media",csv-row,feed,row 66: Lucid · AI | mode=Assisted | feeds=§1 §2 | connection=Admin insights
+IIIb-067,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,"row 67: Salesforce · Agentforce, Einstein | mode=Agentic | feeds=§1 §2 §5 | connection=Digital Wallet usage API; Agentforce analytics; reports API"
+IIIb-068,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 68: HubSpot · Breeze agents | mode=Agentic | feeds=§1 §2 §5 | connection=Account usage; reports API
+IIIb-069,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 69: Gong · Revenue AI | mode=Agentic | feeds=§1 §2 §5 | connection=Admin; Gong API
+IIIb-070,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 70: Clari · Copilot | mode=Assisted | feeds=§1 §2 §5 | connection=Admin
+IIIb-071,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,"row 71: Outreach · Kaia, agents | mode=Agentic | feeds=§1 §2 §5 | connection=Admin; API"
+IIIb-072,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 72: Apollo.io · AI | mode=Agentic | feeds=§1 §2 | connection=Admin; API
+IIIb-073,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 73: ZoomInfo · Copilot | mode=Assisted | feeds=§1 §2 | connection=Admin
+IIIb-074,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 74: Clay · Teams / Enterprise | mode=Agentic | feeds=§1 §2 | connection=Workspace usage; API
+IIIb-075,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,"row 75: 11x, Artisan and peers · outbound agents | mode=Assisted | feeds=§1 §5 | connection=Vendor dashboard"
+IIIb-076,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 76: Intercom · Fin | mode=Agentic | feeds=§1 §5 | connection=Reports; API
+IIIb-077,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,"row 77: Zendesk · AI agents, Copilot | mode=Agentic | feeds=§1 §2 §5 | connection=Explore; API"
+IIIb-078,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 78: Sierra · agents | mode=Assisted | feeds=§1 §5 | connection=Vendor analytics
+IIIb-079,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 79: Decagon · agents | mode=Assisted | feeds=§1 §5 | connection=Vendor analytics
+IIIb-080,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 80: Ada · agents | mode=Agentic | feeds=§1 §5 | connection=Analytics; API
+IIIb-081,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,"row 81: Workday · Illuminate, Extend agents | mode=Assisted | feeds=§1 §2 | connection=Workday reports; Prism"
+IIIb-082,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 82: Harvey · Enterprise | mode=Assisted | feeds=§1 §2 §4 | connection=Admin analytics
+IIIb-083,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 83: Thomson Reuters · CoCounsel | mode=Assisted | feeds=§1 §2 | connection=Admin
+IIIb-084,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,row 84: Ironclad · AI | mode=Agentic | feeds=§1 §4 | connection=Reports; API
+IIIb-085,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,"row 85: DocuSign · IAM, Navigator | mode=Agentic | feeds=§1 §4 | connection=Admin; API"
+IIIb-086,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,"row 86: Ramp · AI, Brex · AI | mode=Agentic (proxy for spend on everything else) | feeds=§1 | connection=Platform API"
+IIIb-087,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,"row 87: Snowflake · Cortex, Databricks · Mosaic AI | mode=Agentic | feeds=§1; cost per component | connection=Account usage views; system tables; APIs"
+IIIb-088,IIIb,catalogue,"Sales, marketing, support, HR, legal, finance agents, data",csv-row,feed,"row 88: Palantir · AIP, Hebbia · Matrix | mode=Assisted | feeds=§1 §2 | connection=Platform admin; usage export"
+IIIb-089,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,row 89: Glean · Enterprise | mode=Agentic | feeds=§1 §2 §3 | connection=Admin analytics; API
+IIIb-090,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,row 90: Moveworks · Employee AI | mode=Assisted | feeds=§1 §2 §5 | connection=Admin analytics
+IIIb-091,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,"row 91: Elastic · AI search, Observability | mode=Agentic | feeds=§1 §3 | connection=Elastic API"
+IIIb-092,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,row 92: LangChain · LangSmith | mode=Agentic | feeds=cost per component; evidence row | connection=API
+IIIb-093,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,"row 93: Braintrust, Arize and peers · eval and observability | mode=Agentic | feeds=evidence row | connection=API"
+IIIb-094,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,row 94: Weights & Biases · Weave | mode=Agentic | feeds=evidence row | connection=API
+IIIb-095,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,"row 95: Zapier · AI, agents | mode=Agentic | feeds=§1 §2 | connection=Admin; API"
+IIIb-096,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,row 96: n8n · Cloud / Enterprise | mode=Agentic | feeds=§1 §2 | connection=Admin; API
+IIIb-097,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,row 97: Make · Enterprise | mode=Agentic | feeds=§1 §2 | connection=Admin; API
+IIIb-098,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,row 98: UiPath · Agentic automation | mode=Agentic | feeds=§1 §2 §5 | connection=Orchestrator API; Insights
+IIIb-099,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,"row 99: Pinecone, Weaviate and peers · vector stores | mode=Agentic | feeds=§1; substrate | connection=Usage API"
+IIIb-100,IIIb,catalogue,"Infrastructure, agents, search, observability",csv-row,feed,"row 100: Scale AI, Labelbox and peers · data and eval services | mode=Manual | feeds=§1 | connection=Invoice; dashboard"
+IIIb-101,IIIb,catalogue,Financial systems,csv-row,feed,"row 101: SAP · Joule, Business AI (S/4HANA, SuccessFactors, Ariba) | mode=Agentic | feeds=§1 §2; billing proxy | connection=AI Units consumption reporting; SAP BTP usage APIs"
+IIIb-102,IIIb,catalogue,Financial systems,csv-row,feed,"row 102: Oracle · Fusion Cloud AI Agents, OCI Generative AI | mode=Agentic | feeds=§1 §2; billing proxy | connection=Fusion usage reports; OCI Usage API"
+IIIb-103,IIIb,catalogue,Financial systems,csv-row,feed,"row 103: Microsoft · Dynamics 365 Copilot, Finance agents | mode=Agentic | feeds=§1 §2 | connection=Graph and Power Platform admin reports"
+IIIb-104,IIIb,catalogue,Financial systems,csv-row,feed,"row 104: Workday · Financial Management, Adaptive Planning, Illuminate | mode=Assisted | feeds=§1 §2; billing proxy | connection=Workday reports; Prism; Extend"
+IIIb-105,IIIb,catalogue,Financial systems,csv-row,feed,"row 105: Oracle NetSuite · Intelligence, Text Enhance, AI Bill Capture | mode=Assisted | feeds=§1 §2; billing proxy | connection=SuiteAnalytics; SuiteCloud API"
+IIIb-106,IIIb,catalogue,Financial systems,csv-row,feed,"row 106: Anaplan · CoPlanner, PlanIQ | mode=Assisted | feeds=§1 §2 | connection=Admin console; ALM API"
+IIIb-107,IIIb,catalogue,Financial systems,csv-row,feed,row 107: Pigment · AI | mode=Assisted | feeds=§1 §2 | connection=Admin
+IIIb-108,IIIb,catalogue,Financial systems,csv-row,feed,"row 108: Planful · Predict, Planful AI | mode=Assisted | feeds=§1 §2 | connection=Admin"
+IIIb-109,IIIb,catalogue,Financial systems,csv-row,feed,row 109: OneStream · SensibleAI | mode=Assisted | feeds=§1 §2 | connection=Admin
+IIIb-110,IIIb,catalogue,Financial systems,csv-row,feed,"row 110: BlackLine · AI, Verity | mode=Agentic | feeds=§1 §5 | connection=Admin reports; API"
+IIIb-111,IIIb,catalogue,Financial systems,csv-row,feed,row 111: FloQast · AI | mode=Assisted | feeds=§1 §5 | connection=Admin; API
+IIIb-112,IIIb,catalogue,Financial systems,csv-row,feed,"row 112: Coupa · Navi, Community AI | mode=Agentic | feeds=§1 §5; billing proxy | connection=Admin analytics; API"
+IIIb-113,IIIb,catalogue,Financial systems,csv-row,feed,row 113: SAP Concur · AI expense audit | mode=Agentic | feeds=§1; expense proxy | connection=Reporting; API
+IIIb-114,IIIb,catalogue,Financial systems,csv-row,feed,row 114: Kyriba · AI cash forecasting | mode=Assisted | feeds=§1 §5 | connection=Admin
+IIIb-115,IIIb,catalogue,Financial systems,csv-row,feed,"row 115: Vic.ai, Rillet, Numeric and peers · AI accounting | mode=Agentic | feeds=§1 §5 | connection=Vendor analytics; API"
+IIIb-116,IIIb,catalogue,Financial systems,csv-row,feed,"row 116: Bloomberg · Terminal AI; FactSet, S&P Capital IQ AI | mode=Manual (seats from billing); Assisted (usage) | feeds=§1 §2 | connection=Entitlement reports"
+IIIb-117,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,"row 117: ServiceNow · Strategic Portfolio Management, Now Assist for SPM | mode=Agentic | feeds=§2; Portfolio source | connection=Table API; Performance Analytics"
+IIIb-118,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,"row 118: Planview · Portfolios, AgilePlace, Copilot | mode=Agentic | feeds=Portfolio source | connection=Planview API; admin"
+IIIb-119,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,"row 119: Broadcom · Clarity, AI | mode=Agentic | feeds=Portfolio source | connection=REST API"
+IIIb-120,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,"row 120: Atlassian · Jira Align, Jira Product Discovery, Rovo | mode=Agentic | feeds=Portfolio source; §2 | connection=Jira Align API; org analytics"
+IIIb-121,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,"row 121: IBM · Apptio Targetprocess, Cloudability, ApptioOne | mode=Agentic | feeds=Portfolio source; §1 (IT spend proxy) | connection=APIs"
+IIIb-122,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,row 122: Smartsheet · AI | mode=Agentic | feeds=§2 | connection=Admin insights; API
+IIIb-123,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,"row 123: Asana · AI, AI Studio | mode=Agentic | feeds=§2 | connection=Admin console; API"
+IIIb-124,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,row 124: monday.com · AI | mode=Agentic | feeds=§2 | connection=Admin; API
+IIIb-125,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,"row 125: Microsoft · Project, Planner, Loop with Copilot | mode=Agentic | feeds=§2 | connection=Graph reports"
+IIIb-126,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,row 126: Aha! · AI | mode=Agentic | feeds=Portfolio source | connection=Admin; API
+IIIb-127,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,row 127: Wrike · AI | mode=Agentic | feeds=§2 | connection=Admin; API
+IIIb-128,IIIb,catalogue,"Portfolio, work and project management",csv-row,feed,"row 128: Airtable · AI, Cobuilder | mode=Agentic | feeds=§2 | connection=Admin; API"
+IIIb-129,IIIb,catalogue,Aggregators and control planes,csv-row,feed,row 129: Okta · Workforce Identity | mode=Agentic | feeds=SSO proxy for all rows | connection=System Log API; Reports
+IIIb-130,IIIb,catalogue,Aggregators and control planes,csv-row,feed,row 130: Microsoft · Entra ID | mode=Agentic | feeds=SSO proxy | connection=Graph reports and sign-in logs
+IIIb-131,IIIb,catalogue,Aggregators and control planes,csv-row,feed,row 131: Google · Cloud Identity | mode=Agentic | feeds=SSO proxy | connection=Reports API
+IIIb-132,IIIb,catalogue,Aggregators and control planes,csv-row,feed,row 132: Zylo · SaaS management | mode=Agentic | feeds=Billing and licence proxy | connection=API; exports
+IIIb-133,IIIb,catalogue,Aggregators and control planes,csv-row,feed,"row 133: Productiv, Zluri, Torii, Vertice · SaaS management | mode=Agentic | feeds=Billing and licence proxy | connection=API"
+IIIb-134,IIIb,catalogue,Aggregators and control planes,csv-row,feed,"row 134: Ramp, Brex, Coupa, Concur · spend platforms | mode=Agentic | feeds=Billing and expense proxy | connection=API"
+IIIb-135,IIIb,catalogue,Aggregators and control planes,csv-row,feed,"row 135: ServiceNow · IT Asset Management, SAM | mode=Agentic | feeds=Licence proxy | connection=Table API"
+IIIb-136,IIIb,catalogue,Aggregators and control planes,csv-row,feed,"row 136: Flexera, Snow (Flexera One) · SAM | mode=Agentic | feeds=Licence proxy | connection=API"
+IIIb-137,IIIb,catalogue,Aggregators and control planes,csv-row,feed,"row 137: Datadog, New Relic, Dynatrace, Splunk · observability | mode=Agentic | feeds=Cost per component; evidence row | connection=API"
+IIIb-138,IIIb,catalogue,Aggregators and control planes,csv-row,feed,"row 138: Cloudflare AI Gateway, Kong AI Gateway, Portkey, LiteLLM · AI gateways | mode=Agentic | feeds=Cost per component; substrate | connection=API"
+IIIb-139,IIIb,catalogue,Aggregators and control planes,csv-row,feed,"row 139: Netskope, Zscaler, Palo Alto (GenAI security) · SSE | mode=Agentic | feeds=Shadow-AI discovery; reach | connection=API; reports"
+IIIb-140,IIIb,catalogue,Aggregators and control planes,csv-row,feed,"row 140: Microsoft Purview, Google Vault (AI data controls) | mode=Excluded (content-adjacent; event counts only) | feeds=§28 boundary | connection=Audit APIs"
