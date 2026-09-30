@@ -19,10 +19,6 @@
 
 **Also here:** `superseded/` — first-pass reports, kept for provenance. And a pre-edit backup of the to-do file.
 
-**Not here:**
-- The updated `Todo Sep.txt` is in `files\`, where it belongs — the only file there I changed.
-- The 19 Sep review stays at `.claude\projects\ethikal\abaf-v0.8-review.md`, referenced but not edited.
-
 **Headline:** 30 of 40 published numbers reproduce — Jay's arithmetic is sound. 21 places the documents contradict each other, 11 where a needed rule is not written. 50 of 66 instrument outputs could not be produced at all. The Captain's twelve regressions are one unauthorised knowledge release, not twelve bugs.
 
 **Still blocked:** BAC is undefined. Charlie, Diana, JohnQ and Spock all asked; none would guess.
